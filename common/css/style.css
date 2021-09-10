@@ -2434,17 +2434,6 @@ box-sizing: content-box;
   clear: both;
 }
 
-.bgvideo {
-    position: fixed;
-    top: 0;
-    right: -60px;
-    margin: auto;
-    min-width: 170vw;
-    width: auto;
-    height: auto;
-    z-index: -50;
-}
-
 /* スライダー */
 @media screen and (max-width: 380px) {
 h2,#section02 .inner-ttl-area h3 {font-size: 9.7vw;}
