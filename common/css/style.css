@@ -280,14 +280,14 @@ background-color: transparent;
 	position: relative;
 }
 
-#keyv .wrapp .pop_btn {
+/* #keyv .wrapp .pop_btn {
 	position: absolute;
 	bottom: -100px;
 	left: 190px;
 	z-index: 300;
 	width: 215px;
 	padding: 12px 0px 12px 0px;
-}
+} */
 
 #keyv h1 {
 	position: relative;
