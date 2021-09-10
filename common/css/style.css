@@ -2914,3 +2914,24 @@ h2,#section02 .inner-ttl-area h3 {font-size: 9.7vw;}
  filter: blur(15px);
 }
 }
+
+.cta__left {
+  width: 242px;
+  height: 110px;
+  display: flex;
+  color: #ff6600;
+}
+
+.cta__left p span{
+  display: block;
+}
+
+.cta__left p:first-child{
+  font-size: 19px;
+}
+.cta__left p:nth-child(2) {
+  font-size: 20px !important;
+}
+.cta__left p:nth-child(2) span i {
+  height: 180%;
+}
