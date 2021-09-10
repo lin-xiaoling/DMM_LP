@@ -1789,7 +1789,7 @@ width: 100%;
   transform: translate(-390px, -120px);
 }
 
-#section04 .zero span {
+/* #section04 .zero span {
   color: #00ff01;
   font-size: 40px;
   position: absolute;
@@ -1799,7 +1799,7 @@ width: 100%;
   margin-right: -50%;
   width: 150px;
   transform: translate(-300px, 175px);
-}
+} */
 #section04 .zero small {
   font-size: 80px;
   position: absolute;
