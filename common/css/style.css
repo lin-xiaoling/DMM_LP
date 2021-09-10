@@ -1733,7 +1733,7 @@ width: 100%;
 	float: left;
 }
 #section04 h2 {
-  color: #fff;
+  color: #0c0e13;
 	padding: 0px;
 	text-align: left;
 	margin-bottom: 50px;
@@ -1742,8 +1742,9 @@ width: 100%;
   display: table;
   padding: 60px 0% 60px 0%;
   width: 100%;
-  background: url(../../common/img/section04_bg.jpg) no-repeat center 0px;
-  background-size: cover;
+  /* background: url(../../common/img/section04_bg.jpg) no-repeat center 0px;
+  background-size: cover; */
+  background: #f5f6f6;
 }
 #section04 b {
 	text-align: left;
@@ -1758,19 +1759,19 @@ width: 100%;
   font-weight: bold;
 }
 #section04 ul li {
-  color: #333;
+  color: #fff;
   border-radius: 100px;
   padding: 6.5px 15px 6.5px 35px;
   margin: 0px auto 20px;
   text-decoration: none;
   text-align: left;
   position: relative;
-  background: #00ff01;
+  background: #333;
   font-size: 17px;
   clear: both;
 }
 #section04 ul li .mark {
-  background: url(../../common/img/mark_b.png) no-repeat;
+  background: url(../../common/img/mark.png) no-repeat;
   background-size: contain;
 }
 #section04 .zero {
@@ -1779,7 +1780,7 @@ width: 100%;
   height: 420px;
 }
 #section04 .zero strong {
-  color: #fff;
+  color: #0c0e13;
   font-size: 470px;
   position: absolute;
   margin: auto;
