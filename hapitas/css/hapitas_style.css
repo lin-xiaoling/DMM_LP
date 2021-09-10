@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+#tieup {
+	margin: 0 auto;
+	text-align: center;
+}
+#hapitas_renewal_head {
+background: url(../img/hapitas_ttl_bg.jpg) no-repeat top -85px center #fff;
+    background-size: 1890px;
+    height: auto;
+    border-top: solid 10px #FFCC00;
+    text-align: center;
+    height: 460px;
+}
+#hapitas_renewal_head h1 {
+	width:1000px;
+	margin:32px auto 0 auto;
+	text-align:left;
+}
+#hapitas_renewal_entry_bg {
+	background-color:#EEEEEE;
+	border-top:solid 1px #BBBBBB;
+	border-bottom:solid 1px #BBBBBB;
+	padding:36px 0;
+	text-align: center;
+}
+#hapitas_renewal_flow_ttl {
+	margin-top:-72px;
+}
+
+#hapitas_renewal_head .fv_bana {
+    padding-top: 80px;
+    display: block;
+}
+
+.entry_btn,.anchor_link {
+	padding: 0px;
+	text-align: center;	
+}
+.entry_btn {
+	margin-top: 30px;
+}
+.anchor_link {
+	margin-bottom: 60px;
+}

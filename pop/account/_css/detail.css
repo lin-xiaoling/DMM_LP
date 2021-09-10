@@ -1,0 +1,397 @@
+@charset "UTF-8";
+/*///////////////////////////////////////emc////////////////////////////////////////////
+Site Name  :  DMM FX
+File Name  :  detail.css
+Created     :  2011.09.01
+Up Date     :  2010.09.01
+Copyright (C) DMM FX All Rights Reserved.
+//////////////////////////////////////////////////////////////////////////////////////*/
+body{
+	margin:0;
+	padding:0;
+	background-color: #f7f7f7;
+}
+
+/* ポップアップページ > 共通
+-------------------------------------------------------------*/
+
+.red { color: #FF0000; }
+.blue { color: #0077CC; }
+.TxtB {
+	font-weight: bold;
+	font-size:15px;
+}
+
+div#LpPop p.ImgBox{
+	display:block;
+	margin:0 auto 10px;
+}
+/* DMM Header */
+
+div#LpDmmHeader {
+	margin: 0 auto;
+	min-width: 694px;
+	position: relative;
+	width: 694px;
+}
+
+div#LpDmmHeader h1 {
+	display: block;
+	height: 30px;
+	text-align: center;
+	padding: 0;
+	width: 100%;
+	font-size: 1.5rem;
+}
+div#LpDmmHeader .InnerHeader {
+	margin: 0 auto;
+	display: block;
+	padding: 2%;
+	background-color: #fff;
+}
+.HeadingThin{
+	border:none;
+}
+/*閉じるボタン*/
+div.popClose {
+	float: right;
+	height: 20px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	width: 56px;
+}
+p.PageTop {
+	margin-right:20px;
+	text-align: right;
+}
+#PopFooter {
+	border-top: 1px dashed #999999;
+	clear: both;
+	margin: 10px 20px 0;
+	overflow: hidden;
+	padding-top: 10px;
+}
+.OutTxt {
+	margin-top: 3%;
+}
+#PopFooter .Copyright{
+	text-align:center;
+}
+
+/* ポップアップページ >口座開設キャンペーン
+-------------------------------------------------------------*/
+div.PopOpen {
+	text-align: center;
+}
+div.PopOpen div#ContentWrapp {
+	width: 520px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* Content
+--------------------------------------------------------------*/
+div#Content {
+	text-align: left;
+	margin:0 auto;
+	width: 694px;
+}
+div#ContentWrapp {
+	text-align: center;
+	width: 694px;
+	margin: 0 auto;
+	padding: 0;
+}
+div#ContentWrapp a:link { color: #ff6600; }
+div#ContentWrapp a:visited { color: #ff6600; }
+div.ContentBg {
+	background-color: #fff;
+}
+p.EntryBtnCam {
+	width: 300px;
+	margin: 0 auto 1em;
+}
+p.EntryBtnCam a {
+	display: block;
+	overflow: hidden;
+	width: 300px;
+	height: 0;
+	padding-top: 80px;
+	background: url('/_img/btn_entry.png') 0 0 no-repeat;
+}
+p.EntryBtnCam a:hover {
+	background-position: left -80px;
+}
+/* キャンペーンページ
+-------------------------------------------------------------*/
+div.CpSpTradeBg {
+	margin: 0;
+	background-color: #f7f7f7;
+}
+#CpSpTrade .CpTop {
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 674px;
+}
+#CpSpTrade .CpTop .CpEnd {
+	position: absolute;
+}
+#CpSpTrade .CpInfo {
+	background-color:#cfedcc;
+	clear: both;
+	margin: 10px 20px 30px;
+	overflow: hidden;
+	padding: 10px;
+}
+#CpSpTrade .CpInfo .MiniBnr{
+	background-color:white;
+	height:75px;
+	width:300px;
+	float:left;
+}
+#CpSpTrade .CpInfo .Btn_Entry{
+	background-color:white;
+	height:75px;
+	width:300px;
+	float:right;
+}
+#CpSpTrade .CpInfo a:hover{
+	opacity: 0.8;
+}
+
+#CpSpTrade .CpTools{
+	background-color:#f2f2f2;
+}
+#CpSpTrade .CpTools .Inner{
+	background: url("../_img/tools_bg.png") no-repeat;
+	width:654px;
+	height:68px;
+}
+#CpSpTrade .CpTools ul {
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+	width: 636px;
+}
+#CpSpTrade .CpTools ul li {
+	background-color: white;
+	display: block;
+	float: left;
+	height: 60px;
+	margin: 4px 0 4px 6px;
+	width: 205px;
+}
+
+
+.TtlLeft {
+	font-size: 1rem;
+	font-weight: bold;
+	margin-left: 3%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	display: block;
+}
+
+#CpSpTrade .Sec {
+	margin:10px 20px 30px;
+	overflow:hidden;
+	clear:both;
+}
+#CpSpTrade .Sec .Ttl {
+	display: block;
+	font-size: 16px;
+	margin: 0;
+}
+.boldtext {
+	font-weight: bold;
+	background-color: #00ff00;
+}
+#CpSpTrade .Sec .SecInner{margin:10px;}
+
+#CpSpTrade .Sec .ImgOutline {
+	display: block;
+	height: auto;
+	margin: 0 auto;
+	width: 560px;
+}
+
+#CpSpTrade .Bnr{
+	text-align: center;
+}
+#CpSpTrade .Bnr a img{
+	margin: 30px auto;
+	display: block;
+	border:1px solid #bbb;
+}
+#CpSpTrade .Bnr a:hover img{
+	opacity:0.8;
+}
+
+#CpSpTrade .CpTable{
+	margin:30px auto 0;
+}
+#CpSpTrade .CpTable table{
+	width: 616px;
+	text-align: center;
+	margin: auto;
+}
+#CpSpTrade .CpTable table th {
+	background-color: #ececec;
+	border: 1px solid #bbb;
+	padding: 0.5em 1em;
+	white-space: nowrap;
+}
+#CpSpTrade .CpTable table caption{
+	text-align: left;
+	font-weight:bold;
+}
+.camp_link {
+	text-decoration: underline;
+	color: black;
+}
+.SecInner_text {
+	padding: 15px;
+	margin-top: 15px;
+}
+/* ===== account 口座開設ボタン */
+.bt-regist{
+	margin-top: 10px;
+}
+.bt-regist a {
+	display:block;
+	margin:0 auto;
+	width:330px;
+}
+.bt-regist a:hover {
+	opacity: 0.8;
+}
+.bt-regist img {
+	width: 100%;
+}
+/* キャッシュバックフロー */
+.p-campaignFlow {
+	margin: 0;
+	padding: 10px;
+	position: relative;
+}
+.p-campaignFlow::before {
+	position: absolute;
+	top: 40px;
+	left: 50%;
+	z-index: 0;
+	content: "";
+	height: calc(100% - 80px);
+	display: block;
+	border: 1px dashed #ccc;
+}
+.p-campaignFlow__item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	position: relative;
+	padding: 15px 20px;
+	border: 1px solid #d1d1d1;
+	background-color: #f7f7f7;
+	border-radius: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	margin-bottom: 0;
+}
+.p-campaignFlow__item > .c-absItem {
+	position: absolute;
+    top: 0;
+    left: 50%;
+	height: 18px;
+	transform: translate(-50%, -50%);
+}
+.p-campaignFlow__item:not(:first-child) {
+	margin-top: 25px;
+}
+.p-campaignFlow__item:nth-child(3) {
+	margin-top: 45px;
+}
+.p-campaignFlow__item:nth-child(3)::after {
+	position: absolute;
+	top: -35px;
+	left: 50%;
+	transform: translateX(-50%);
+	content: "審査";
+	font-size: 14px;
+	font-weight: bold;
+	border: 1px solid #d1d1d1;
+	padding: 0 6px;
+	background-color: #fff;
+}
+.p-campaignFlow__term {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translate(0, -50%);
+	width: 90px;
+	height: 24px;
+	line-height: 24px;
+	color: #00ff00;
+	font-weight: bold;
+	background-color: #333;
+	border-radius: 12px;
+	font-size: 15px;
+	letter-spacing: 1.4px;
+	text-align: center;
+}
+.p-campaignFlow__term::after {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+	content: "";
+	display: block;
+	width: 15px;
+	height: 142px;
+	background: url("/_img/campaign/account/sp_arrow.png") no-repeat;
+	background-size: cover;
+}
+.p-campaignFlow__content {
+	width: calc(100% - 70px);
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+.p-campaignFlow__icn {
+	width: 60px;
+	height: 60px;
+}
+.p-campaignFlow__ttl {
+	padding-bottom: 8px;
+	color: #12bc12;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1;
+	margin: 0;
+}
+.p-campaignFlow__ttl > strong {
+	font-size: 130%;
+}
+.p-campaignFlow__ttl--only {
+	line-height: 1.1;
+	padding-bottom: 0;
+}
+.p-campaignFlow__ttl--only > em {
+	display: block;
+	font-size: 130%;
+	letter-spacing: 0;
+}
+.p-campaignFlow__ttl--only > em + em {
+	font-size: inherit;
+}
+.p-campaignFlow__txt {
+	font-size: 12px;
+	margin: 0;
+}
+.p-campaignFlow__txt + .p-campaignFlow__txt {
+	padding-top: 5px;
+}
+.p-campaignFlow__txt--sm {
+	font-size: 10px;
+}

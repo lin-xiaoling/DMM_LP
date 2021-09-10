@@ -1,0 +1,127 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><!-- #section02 -->
+<section id="section02">
+  <figure class="capture"><img src="../common/img/capture_m01.png" alt="免許証 撮影"></figure>
+  <div class="wrap"> <b>取引チャンスを逃さない</b>
+    <h2>最短1時間で取引可能<small>※</small></h2>
+    <p>口座申込から最短1時間後に取引が可能。<br>
+      自宅で郵送書類の受け取りも不要です<br>
+      <span>※DMM FXのお申込みで『スマホでスピード本人確認』を使用した場合(弊社休業日を除く)</span></p>
+    <figure class="ekyc"><img src="../common/img/img_ekyc_flow.png" alt="ekyc"></figure>
+    <div class="tool-inner">
+      <div class="inner-ttl-area js-fadeInUp is-fadeInUp"> <b class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">ハイグレード取引アプリ登場</b>
+        <h3 class="inner-ttl wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">スマホに最適化した<br>
+          最新ツール</h3>
+      </div>
+      <div class="slider">
+        <div class="slider-item video">
+          <div class="slider-item__inner">
+            <div class="slider-item__desc"> <span class="slider-item__num">01</span>
+              <h4 class="slider-item__ttl sp-none">直観的な操作と<br>
+                シンプルなデザイン</h4>
+              <h4 class="slider-item__ttl pc-none">直観的な操作とシンプルなデザイン</h4>
+              <p class="lead slider-item__txt sp-none">シンプルなデザインを保ちながら従来の機能を<br>
+                大幅にグレードアップし、よりスマートなお取引を実現。</p>
+            </div>
+            <figure class="slider-item__phone">
+              <div class="screen"> <img class="screen__img" src="../common/img/frame_vertical.png" alt="アプリ画面イメージ">
+                <video class="screen__movie slide-video slide-media" loop muted autoplay playsinline preload="metadata" poster="">
+                  <source src="../common/movie/tool_video01.mp4">
+                  <p>動画を再生するには、videoタグをサポートしたブラウザが必要です。</p>
+                </video>
+              </div>
+            </figure>
+            <p class="lead slider-item__txt pc-none">シンプルなデザインを保ちながら従来の機能を大幅にグレードアップし、よりスマートなお取引を実現。</p>
+          </div>
+        </div>
+        <div class="slider-item video">
+          <div class="slider-item__inner slider-item__inner--center"> <span class="slider-item__num slider-item__num--center">02</span>
+            <h4 class="slider-item__ttl slider-item__ttl--center">チャートを見ながら即注文</h4>
+            <figure class="slider-item__phone slider-item__phone--center">
+              <div class="screen screen--center"> <img class="screen__img screen__img--center" src="../common/img/frame_horizontal.png" alt="アプリ画面イメージ">
+                <video class="screen__movie screen__movie--center slide-video slide-media" loop muted autoplay playsinline preload="metadata" poster="">
+                  <source src="../common/movie/tool_video02.mp4">
+                  <p>動画を再生するには、videoタグをサポートしたブラウザが必要です。</p>
+                </video>
+              </div>
+            </figure>
+            <p class="lead slider-item__txt slider-item__txt--center" style="text-align: center;">取引チャンスを逃さない。<br>
+              相場動向やテクニカル指標を確認しながらスピーディなお取引が可能。</p>
+          </div>
+        </div>
+        <div class="slider-item video">
+          <div class="slider-item__inner">
+            <div class="slider-item__desc"> <span class="slider-item__num">03</span>
+              <h4 class="slider-item__ttl sp-none">新規決済注文が<br>思いのままに</h4>
+              <h4 class="slider-item__ttl pc-none">新規決済注文が思いのままに</h4>
+              <p class="lead slider-item__txt sp-none">好みに合わせた細かい注文設定が可能。<br>シンプルなトレード画面から新規から決済まで<br>
+                すべてが完結。</p>
+            </div>
+            <figure class="slider-item__phone">
+              <div class="screen"> <img class="screen__img" src="../common/img/frame_vertical.png" alt="アプリ画面イメージ">
+                <video class="screen__movie slide-video slide-media" loop muted autoplay playsinline preload="metadata" poster="">
+                  <source src="../common/movie/tool_video03.mp4">
+                  <p>動画を再生するには、videoタグをサポートしたブラウザが必要です。</p>
+                </video>
+              </div>
+            </figure>
+            <p class="lead slider-item__txt pc-none">好みに合わせた細かい注文設定が可能。シンプルなトレード画面から新規から決済まですべてが完結。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- #section02 END -->
+<!-- #section03 -->
+<section id="section03">
+  <div class="wrap">
+    <div class="subtitle">
+      <p>多様なPC取引システム</p>
+      <small>ダウンロードせず利用でき、ブラウザタイプで取引が可能。</small> <a class="button pop_btn" href="#modal_specpc"><span class="plus"></span> <span>詳しく見る</span></a></div>
+    <figure class="capture"><img src="../common/img/capture_m03.png" alt="PCチャート"></figure>
+    <div class="remodal" data-remodal-id="modal_specpc">
+      <p><img src="../common/img/pop01.png" alt="PC性能"></p>
+      <div class="close">
+        <button data-remodal-action="cancel" class="remodal-cancel"><span class="TB_closeMinus"></span> <span>閉じる</span></button>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- #section03 END -->
+<!-- #section04 -->
+<section id="section04" class="grey">
+  <div class="wrap">
+    <div class="box"> <b class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">あらゆる手数料が無料</b>
+      <h2 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">取引手数料は<br>
+        掛かりません</h2>
+      <ul>
+        <li><span class="mark"></span>取引手数料</li>
+        <li><span class="mark"></span>ロスカット手数料</li>
+        <li><span class="mark"></span>口座開設手数料</li>
+      </ul>
+      <ul>
+        <li><span class="mark"></span>口座維持手数料</li>
+        <li><span class="mark"></span>出金手数料</li>
+        <li><span class="mark"></span>クイック入金手数料</li>
+      </ul>
+    </div>
+    <div class="zero"><span>手数料</span><strong>0<small>円</small></strong></div>
+  </div>
+</section>
+<!-- #section04 END -->
+<!-- #section08 -->
+<section id="section08"> <b class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">FX業界初</b>
+  <h2 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">LINEであなたをサポート</h2>
+  <div class="wrap">
+    <div class="box">
+      <p>※当サービスを利用するためには、LINEアプリのインストールが必要になります。</p>
+      <span><img src="../common/img/logo_line.png" alt="LINE">
+        <p>LINE ID:<br>
+          @sec.dmm.com</p>
+        <img src="../common/img/img_qr.png" alt="QR"></span> <a href="https://line.me/ti/p/%40sec.dmm.com" class="pop_btn"><span class="sarrow"></span><span>LINEでお問い合わせする</span></a></div>
+    <figure class="capture"><img src="../common/img/capture_m05.png" alt="LINEでお問い合わせ"></figure>
+  </div>
+  <!--a href="tel:0120-961-522"><span><img src="../common/img/tell.png"></span>0120-961-522</a>
+<p>【冬時間】月曜日 AM7:00〜土曜日AM6:50<br>【夏時間】月曜日 AM7:00〜土曜日AM5:50</p-->
+</section>
+<!-- #section08 END -->

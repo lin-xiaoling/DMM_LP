@@ -1,0 +1,721 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*======================[  RESET ]*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; 	content: none; }
+table { border-collapse: collapse;border-spacing: 0; }
+img {border:0;}
+
+
+/*行の高さをフォントサイズと同じにして余白をリセットしています
+（※padding:0;は省略しても違いが見られなかったためmargin:0;のみ）*/
+body {
+  line-height:150%;
+  font-size:14px;
+  font-family: ArialMT, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", メイリオ, sans-serif;
+  -webkit-text-size-adjust: none; /* フォントサイズ自動調整 */
+  text-align:left;
+}
+/*ブロックレベル要素の余白をリセットしています
+（※padding:0;は省略しても違いが見られなかったためmargin:0;のみ）*/
+h1, h2, h3, h4, h5, h6, p {
+  line-height: 1.35em;
+}
+
+/*HTML5での新規追加要素のデフォルトをブロック要素へ変更しています
+（※Android2.1以前のブラウザではインライン要素となっているようでした）*/
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,a{
+  display:block;
+}
+
+/*水平罫線のデフォルトである立体的な罫線を見えなくしています
+（※罫線の色を変える場合は#ccccccの部分を変更）*/
+hr {
+  display:block;
+  height:1px;
+  border:0;
+  border-top:1px solid #cccccc;
+  margin:1em 0;
+  padding:0;
+}
+
+/*リスト要素のリストスタイルと余白をリセットする*/
+ul {
+  list-style:none;
+  padding:0;
+  margin:0;
+}
+li {
+  padding:0;
+  margin:0;
+}
+
+/*縦方向の揃え位置を中央揃えに指定しています*/
+input, select {
+  vertical-align:middle;
+}
+/*横幅を画面に合わせます*/
+body,div,img{
+  display:block;
+  margin: 0 auto;
+}
+/*クリアフィックス*/
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+  min-height: 1px;
+}
+
+* html .clearfix {
+  height: 1px;
+  /*\*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
+.pt1_5 {
+  padding-top: 1.5em;
+}
+.pt3 {
+  padding-top: 3em;
+}
+.pb3 {
+  padding-bottom: 3em;
+}
+.pb2 {
+  padding-bottom: 2em;
+}
+.pt0 {
+  padding-top: 0px !important;
+}
+
+/* 共通ここから
+*************************/
+
+body {
+  font-size: 0.7em;
+  color: #333333;
+  line-height: 1.2em;
+}
+
+img[usemap] {
+  border: none;
+  height: auto;
+}
+
+.entry_btn {
+  margin-bottom: 1.5em;
+}
+
+/*ナビゲーションここから
+*************************/
+
+#header {
+  width:100%;
+  background-color:#ffffff;
+  position: fixed;
+  top: 0;
+  left:0;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #ccc;
+  z-index: 1000;
+}
+
+#header #header_base {
+  width:100%;
+  height:41px;
+}
+
+#header h1 {
+  width:130px;
+  float:left;
+}
+
+#header div {
+  width:53px;
+  float:right;
+}
+
+#hide_nav {
+  width:95%;
+  margin:50px auto 4px auto;
+  background-color:#ffffff;
+  display:none;
+  padding-left: 1%;
+}
+
+#hide_nav li {
+  width:32%;
+  margin:0 0.4em 0.4em 0;
+  float:left;
+  font-size:1em;
+  text-align:center;
+  background-color:#ffffff;
+}
+
+#hide_nav li.mgR0 {
+  margin-right:0;
+}
+
+#hide_nav li a {
+  display:block;
+  padding:0.8em 0;
+  width:100%;
+  line-height:1.1em;
+  color:#222;
+  background-color:#eeeeee;
+  text-decoration:none;
+}
+
+#hide_nav li a:visited {
+  text-decoration:none;
+}
+
+/* ファーストビュー
+*********************************/
+
+#head {
+  position: relative;
+  margin:3.7em 0 2.5em 0;
+  padding:0;
+}
+.class__comment {
+  position: absolute;
+  margin: 10px;
+  font-size: 0.5rem;
+  top: 25%;
+  width: 50%;
+  color: #abaaaa;
+}
+.spread__notice {
+  background-color: #6BB717;
+  font-size: 0.5rem;
+  color: #fff;v
+  padding: 10px;
+}
+
+#head img {
+  width:100%;
+  border:0;
+}
+
+#head ul {
+  background:#6BB717;
+}
+
+#head ul li {
+  width:91%;
+  margin:0 auto 0.5em auto;
+}
+
+#head ul li:last-child {
+  margin-bottom:0;
+}
+
+#head #camp_bnr {
+  width:91%;
+}
+
+#head_entry_btn {
+  margin-bottom:4em;
+}
+
+#head #camp_flow {
+  width:91%;
+  display:none;
+  margin: 2.5em auto 1.5em;
+}
+
+/* スプレッド
+*********************************/
+
+#spread {
+  margin-top: 3.5em;	
+}
+
+#spread_top {
+  display: block;
+  width: 100%;
+  background: url(../_img/basic_img/bg_grey.gif) no-repeat 0 0 / 100% auto;
+  background-color: #EFEFEF;
+  padding-top: 3.5em;	
+}
+.reason_notice {
+  background-color: #6BB717;
+  margin: 0 auto;
+  text-align: left;
+  color: #fff;
+  font-size: 1em;
+  padding: 15px;
+}
+#spread_top h4 {
+  margin-bottom: 2em;	
+}
+
+#spread_table img {
+  width: 100%;
+}
+
+#spread_txt {
+  margin: -8% 0 -8% 5%;
+  width: 90%;
+  padding-bottom: 9%;
+}
+
+#spread_txt span {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+#spread_bottom {
+  margin-bottom: 2em;	
+}
+
+/* ポイントが貯まる
+*********************************/
+
+#point {
+  display: block;
+  width: 100%;
+  background: url(../_img/basic_img/bg_grey.gif) no-repeat 0 0 / 100% auto;
+  background-color: #EFEFEF;
+  margin-top: 3.5em;
+}
+
+#point h4 {
+  padding: 1.9em 0 1.2em;	
+}
+
+#point .point_border {
+  width: 90%;
+  padding-bottom: 1px;
+  border-bottom: 1px dotted #333;
+}
+
+#point #point_1 {
+  width: 100%;
+  background: url(../_img/basic_img/point_1_new.png)	no-repeat right 60% / contain;
+  height: 100%;
+  padding-top: 15%;
+  padding-bottom: 6%;
+  margin-top: -12%;	
+}
+
+#point #point_2 {
+  width: 100%;
+  background: url(../_img/basic_img/point_2_new.png)	no-repeat right center / contain;
+  height: 100%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+
+#point #point_3 {
+  width: 90%;
+  background: url(../_img/basic_img/point_3_new.png)	no-repeat right center / contain;
+  height: 100%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  border-bottom: none;	
+}
+
+#point .point_txt_2 {
+  width: 65%;	
+  font-size: 1.1em;
+  line-height: 1.2em;
+  padding-right: 1%;	
+}
+
+#point .point_txt_1 {
+  width: 100%;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#point #point_btn {
+  padding: 1.5em 0 3em;	
+}
+
+/* ニュース
+*********************************/
+
+#news {
+  margin: 3.5em auto 2em;	
+}
+
+#news_inner {
+  width: 96%;
+  margin: 0.8em auto;
+  overflow: hidden;	
+}
+
+#news_innner_l {
+  float:left;
+  width: 28%;	
+}
+
+#news_inner_r {
+  float: left;
+  width: 70%;
+  text-align: center;	
+  font-size: 1.2em;
+}
+
+#news_inner_r p:first-child {
+  margin: 0.9em auto 1.1em auto;
+  font-size: 1.3em;
+}
+
+#news_inner_r p span {
+  font-weight: bold;
+  line-height: 2em;
+}
+
+/* 取引ツール
+*********************************/
+
+#tool {
+  display: block;
+  width: 100%;
+  background: url(../_img/basic_img/bg_grey.gif) no-repeat 0 0 / 100% auto;
+  background-color: #EFEFEF;
+  margin-top: 3em;
+  padding-bottom: 1.5em;
+}
+
+#tool h4 {
+  padding: 3.6em 0 3em 0;	
+}
+
+.tool_bg_white {
+  background: #fff;
+  width: 94%;
+  padding: 0.5em 0;	
+}
+
+.tool_bg_white .tool_txt {
+  width: 90%;
+  margin: 0.5em auto 1em;
+  font-size: 1.2em;	
+}
+
+.tool_bg_white .tool_txt span {
+  color: #3EBD51;	
+}
+
+.tool_bg_white ul {
+  width: 90%;
+  margin: 1em auto;
+  overflow: hidden;	
+}
+
+.tool_bg_white ul li.tool_fl_L {
+  width: 48%;
+  float: left;	
+}
+
+.tool_bg_white ul li.tool_fl_R {
+  width: 48%;
+  float: right;	
+}
+
+.tool_bg_white #tool_tsushin {
+  margin: 0.7em auto 1em;	
+}
+
+.tool_bg_white #tool_premiere {
+  padding-bottom: 1em;	
+}
+
+#tool_mb {
+  margin-bottom: 2em;	
+}
+
+#btn_middle {
+  padding-top: 1.5em;	
+}
+
+/* 安心安全の信託保全
+*********************************/
+
+#care {
+  color: #fff;
+  margin-top: 3em;
+}
+
+#care h4 {
+  padding: 2em 0 1.5em 0;	
+}
+
+#care #care_txt1 {
+  padding: 2em 0;	
+}
+
+#care #care_pic {
+  padding: 1.3em 0 2em;	
+}
+
+#care #care_txt2 {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 0 2em;
+  font-size: 1.2em;
+  color: #333;	
+}
+
+/* 便利なクイック入金サービス
+*********************************/
+
+#financial {
+  display: block;
+  width: 100%;
+  background: url(../_img/basic_img/bg_grey.gif) no-repeat 0 0 / 100% auto;
+  background-color: #EFEFEF;
+  padding-bottom: 1.5em;
+  margin-bottom: 2em;
+}
+
+#financial h4 {
+  padding: 2em 0;	
+}
+
+#financial #financial_txt {
+  width: 90%;
+  margin: 0 auto 1em;
+  font-size: 1.2em;
+}
+
+#financial span {
+  color: #BE1305;
+}
+
+/* 口座開設までの流れ
+*********************************/
+
+#establish {
+  margin: 4.5em auto;	
+}
+
+#establish h4 {
+  margin-bottom: 1.5em;	
+}
+
+/* インフォメーション
+*********************************/
+
+#info {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 1.2em;
+}
+
+#info ul {
+  overflow: hidden;
+  vertical-align: bottom;
+  padding-top: 0.8em;
+  border-top: 1px solid #B3B3B3;	
+}
+
+#info ul li#info_logo {
+  width: 35%;
+  float: left;	
+}
+
+#info ul li#update_day {
+  float: right;
+}
+
+#info #info_inner {
+  margin-top: 0.8em;	
+}
+
+#info #info_inner p {
+  line-height: 1.5em;
+  padding-top: 0.6em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #B3B3B3;	
+}
+
+#info #info_inner p:last-child {
+  border-bottom: none;	
+}
+
+#info #info_inner p a {
+  display: inline;		
+}
+
+/* フッター
+*********************************/
+
+footer {
+  display: block;
+  width: 100%;
+  color: #fff;
+  background: url(../_img/basic_img/footer_bg.gif) no-repeat 0 0 / cover;
+  margin-top: 2em;				
+}
+
+footer p {
+  text-align: center;
+  padding-bottom: 30%;
+  padding-top: 10%;	
+}
+
+/* tickboxカスタム
+*********************************/
+
+#TB_window img#TB_Image{
+  margin: 5px 0 0 5px;
+}
+#TB_closeWindow{
+  padding:5px;
+}
+
+/*discrame*/
+#overlay {
+  position: absolute;
+  z-index: 9998;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  cursor: pointer;
+}
+#boxAttention {
+  cursor: pointer;
+  top: 0;
+  height: 390px;
+  left: 50%;
+  margin: 0 0 0 -50%;
+  position: fixed;
+  width:100%;
+  z-index: 9997;
+}
+#boxAttention img{
+  cursor: pointer;
+  left: 50%;
+  margin: 0 0 0 -50%;
+  position: fixed;
+  top: 50px;
+  width:100%;
+  z-index: 9999;
+}
+
+/* ページトップ
+*********************************/
+
+#page-top {
+  position: fixed;
+  bottom: 0;
+  right: 0.3em;
+  font-size: 1.7em;
+  line-height:1.2;
+}
+
+#page-top a {
+  background: #333;
+  opacity: 0.75;
+  text-decoration: none;
+  color: #ffffff;
+  width: 2.1em;
+  height: 1.9em;
+  padding: 0.6em 0.2em 0 0.2em;
+  text-align: center;
+  display: block;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+}
+
+
+/* 24時間安心サポート
+*********************************/
+
+#support_txt {
+  width: 90%;
+  margin: 0.8em auto 1em auto;
+  font-size: 1.2em;
+}
+
+.support_inner {
+  width: 90%;
+  border: 1px solid #33BD44;
+  box-shadow: none;
+  font-size: 0.75em;
+  padding:1.5em 0;
+  margin-bottom:2em;
+}
+
+.mgB3EM {
+  margin-bottom:3em;
+}
+.mgB4EM {
+  margin-bottom:4em;
+}
+
+.line_h0 {
+  line-height:0;
+}
+
+.support_inner:after {
+  content:"";
+  display:block;
+  clear:both;
+}
+
+#line_icon {
+  width: 32%;
+  float:left;
+  margin-left:1.5em;
+}
+
+#line_txt {
+  width:55%;
+  float:right;
+  margin-right:1.4em;
+  text-align:center;
+}
+
+#line_txt p:first-child {
+  margin-bottom:0.9em;
+}

@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+#tieup {background: #ffffff; margin-top: 0; padding-bottom: 10px}
+#tieup_ttl {padding:0; margin-bottom:10px; text-align:center;}
+#tieup_ttl h1,#tieup_ttl h2,#tieup_ttl #arrow,#tieup_ttl #main,#tieup_ttl h3,#tieup_head p {
+	padding:0;
+	margin:0;
+	line-height:0;
+}
+#header {
+	z-index: 1;
+}
+#tieup img {
+	width: 100%;	
+}
+#tieup p {
+	padding: 0px;
+	line-height: 0;
+	position: initial;
+}
+#btn_bottom,#btn_bottom + .anchor_link {
+	text-align: center;
+	padding: 0px;
+	margin-bottom: 15px;
+}
+#btn_bottom + .anchor_link {
+	margin-bottom: 25px;
+}
+#camp_detail {
+    position: absolute;
+    top: 79%;
+    left: 3%;
+    width: 45%;
+}
+#camp_detail img {
+    width: 100%;
+}
+#camp_detail2 {
+    position: absolute;
+    top: 65%;
+    left: 42%;
+    width: 26.9%;
+}
+#camp_detail2 img {
+    width: 100%;
+}
+.p-r {
+    position: relative;
+}
+
+#tieup_btn_first_title {
+	width: 69%;
+	margin: 16px auto 0px;
+	text-align: center;	
+}
+.tieup_btn_first {
+	width: 90%;
+	display: block;	
+	margin: 2.6em auto 0;
+}
+.tieup_btn_middle {
+	width: 90%;
+	display: block;	
+	margin: 2.5em auto 0;
+}
+.tieup_btn img {
+	width: 96%;
+	margin: 0 auto;
+	text-align: center;	
+}
+#camp_flow {
+	width: 85%;
+	margin: 0px auto 15px;
+    padding: 30px 0 0;
+	text-align: center;	
+}
+#step1 {
+	width: 96%;
+	margin: 0px auto;
+	text-align: center;	
+}
+.step1 {
+	width:96%;
+	margin:0 auto;
+	text-align:center;	
+}
+#step2 {
+	width: 96%;
+	margin: 0px auto 20px;
+	text-align: center;	
+}
+#tieup_address {
+	padding:0 !important;
+	margin:0 auto 2em !important;
+}
+.head_tieup {
+	margin: 1.8em auto 4em !important;	
+}
+#step2_auwallet {
+	width: 96%;
+	margin: 0 auto 20px;
+	text-align: center;	
+}
+#camp_flow_tsite {
+	width: 62%;
+	margin: 40px auto 15px;
+	text-align: center;	
+}
+.general_reason_mei {
+	background: #fff !important;
+	padding: 0.8em 0 1.5em !important;
+	margin:0 !important;		
+}
+.camp_flow_general_mei {
+	width: 96% !important;
+	margin-bottom: 0 !important;
+    margin: 30px auto 15px;
+}

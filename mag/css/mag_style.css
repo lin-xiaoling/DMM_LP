@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+.wrapper_mag {
+	background: url(../img/mag_title_new_bg.gif) repeat-x
+}
+#tieup {
+	margin: 0 auto;
+	text-align: center;
+	background: #fff;
+}
+#mag_report {
+	padding: 0px;
+	border: none;
+}
+#tieup p {
+    padding: 0px;
+    line-height: 0;
+}
+#tieup_title_mag {
+	width: 1000px;
+	margin: 0 auto;
+}
+#tieup_title_mag h1 {
+	margin: 0 auto !important;
+}
+#mag_select_detail {
+	background:url(../img/mag_camp3.gif) center 0px no-repeat;
+	height:320px;
+	text-align:center;
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+#mag_select_detail ul {
+	width:718px;
+	height:123px;
+	padding:120px 0 0 15px;
+	margin:0 auto;
+}
+#mag_select_detail ul li {
+	width:480px;
+	height:36px;
+	float:left;
+	margin:0 9px 7px 0;
+}
+#mag_select_detail ul li a {
+	display:block;
+	width:480px;
+	height:36px;
+}
+#mag_select_detail ul li a span {
+    position: relative;
+    z-index: -1;
+}
+#mag_select_detail ul li:nth-child(even) {
+	margin-right:0;
+}
+#mag_select_detail ul li:last-child {
+	margin-bottom:0;
+}
+#mag_select_detail ul li:first-child a {
+	background:url(../img/mag_select_report01_off.gif) 0 0 no-repeat;
+}
+#mag_select_detail ul li:first-child a:hover, #mag_select_detail ul li:first-child a.selected {
+	background-image:url(../img/mag_select_report01_on.gif);
+}
+#mag_select_detail ul li:nth-child(2) a {
+	background:url(../img/mag_select_report02_off.gif) 0 0 no-repeat;
+}
+#mag_select_detail ul li:nth-child(2) a:hover, #mag_select_detail ul li:nth-child(2) a.selected {
+	background-image:url(../img/mag_select_report02_on.gif);
+}
+#mag_select_detail ul li:nth-child(3) a {
+	background:url(../img/mag_select_report03_off.gif) 0 0 no-repeat;
+}
+#mag_select_detail ul li:nth-child(3) a:hover, #mag_select_detail ul li:nth-child(3) a.selected {
+	background-image:url(../img/mag_select_report03_on.gif);
+}
+#mag_select_detail #mag_select_btn {
+    position: absolute;
+    top: 259px;
+    right: 50px;
+}
+#mag_select_detail #mag_select_btn2 {
+position: absolute;
+    top: 259px;
+    left: 157px;
+}
+
+.mag_entry_btn {
+	text-align: center;
+}

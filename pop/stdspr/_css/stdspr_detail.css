@@ -1,0 +1,266 @@
+@charset "UTF-8";
+/*///////////////////////////////////////emc////////////////////////////////////////////
+	   Site Name  :  DMM FX
+	   File Name  :  detail.css
+	   Created	 :  2011.09.01
+	   Up Date	 :  2010.09.01
+	   Copyright (C) DMM FX All Rights Reserved.
+//////////////////////////////////////////////////////////////////////////////////////*/
+td, th {
+	border: 1px solid;
+	padding: 0.5em 0;
+}
+
+/* ポップアップページ > 共通
+-------------------------------------------------------------*/
+div#LpPop { }
+.red { color: #FF0000; }
+.blue { color: #0077CC; }
+.TxtB {font-weight: bold; font-size:15px;}
+div#LpPop p.ImgBox{display: block; margin:0 auto 10px;}
+/* DMM Header */
+div#LpDmmHeader {
+	position: relative;
+	margin: 0 auto;
+	width: 755px;
+	height: 56px;
+	border-top: 6px solid #006933;
+}
+div#LpDmmHeader h1 {
+	background: url(../_img/logo_dmmfx.png) 0 0 no-repeat;
+	height: 31px;
+	left: 19px;
+	margin: 0;
+	overflow: hidden;
+	padding: 0px;
+	position: absolute;
+	text-indent: -9999px;
+	top: 14px;
+	width: 309px;
+}
+div.PopStdSpr {
+	text-align: center;
+}
+div.PopStdSpr div#ContentWrapp {
+	width: 755px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* Content */
+div.PopStdSpr div#Content {
+	width: 755px;
+	margin: 0 auto 0;
+	padding: 0;
+	text-align: left;
+}
+div.PopStdSpr div#Content .SprDiscrBox{
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #CCCCCC;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+div.PopStdSpr div#Content p.Gensoku {
+	float: left;
+	height: 60px;
+	margin: 0.5em;
+	text-align: center;
+	width: 120px;
+}
+div.PopStdSpr div#Content ul.SprDiscr {
+	float: right;
+	font-size: 12px;
+	margin: 0;
+	padding: 0.5em;
+	width: 600px;
+}
+div.PopStdSpr div#Content ul.SprDiscr li{
+	display: inline-block;
+	list-style: none outside none;
+	margin: 0;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+/*閉じるボタン*/
+div#Content div.popClose {
+	float: right;
+	height: 20px;
+	margin-bottom: 10px;
+	width: 56px;
+}
+
+/* Content Footer */
+div#Content div#ContentFooter {
+	border-top: 1px solid #BBBBBB;
+	margin: 1em 0 0 0;
+	padding: 14px 0 0;
+	text-align: center;
+	width: 100%;
+}
+div#Content div#ContentFooter address {
+	font-size: 12px;
+}
+.update{
+	text-align: right;
+}
+/*-------------------------------------------------------------*/
+/*NormalSpead*/
+.StandardSpread{
+	margin: 0;
+	position: relative;
+	width: 100%;
+}
+.StandardSpread ul.Note{
+	margin: 0;
+	padding: 0 0 0 1em;
+	text-indent: -1em;
+}
+.StandardSpread ul.Note li{
+	list-style-type: none;
+	margin:0;
+}
+
+.StandardSpread .SprTbl{
+	margin-bottom:10px;
+	overflow: hidden;
+	width: 100%;
+}
+.StandardSpread .SprTbl .SprNum{
+	font-family: Scada;
+	font-size: 20px;
+	font-weight: bold;
+}
+.StandardSpread .SprTbl .Frag{
+	background: url(/lp/pop/stdspr/_img/frag.png) no-repeat 0 0 ;
+	border: 1px solid #aaa;
+	display: inline-block;
+	height: 18px;
+	margin-left: 2px;
+	width: 27px;
+}
+.StandardSpread .SprTbl .JPY{background-position: 0 0;}
+.StandardSpread .SprTbl .USD{background-position: 0 -20px;}
+.StandardSpread .SprTbl .EUR{background-position: 0 -40px;}
+.StandardSpread .SprTbl .GBP{background-position: 0 -60px;}
+.StandardSpread .SprTbl .AUD{background-position: 0 -80px;}
+.StandardSpread .SprTbl .NZD{background-position: 0 -100px;}
+.StandardSpread .SprTbl .CHF{background-position: 0 -120px;}
+.StandardSpread .SprTbl .CAD{background-position: 0 -140px;}
+.StandardSpread .SprTbl .ZAR{background-position: 0 -160px;}
+.StandardSpread .SprTbl table {
+	border-collapse: collapse;
+	border-left: 1px solid #D4D3D3;
+	border-right: 1px solid #D4D3D3;
+	border-bottom: 3px solid #666666;
+	border-spacing: 0;
+	margin: 0;
+}
+.StandardSpread .SprTbl table.SprTbl01{
+	float: left;
+	width: 48%;
+}
+.StandardSpread .SprTbl table.SprTbl02{
+	float: right;
+	width: 51.7%;
+}
+.StandardSpread .SprTbl table tr th,
+.StandardSpread .SprTbl table tr td{
+	border: none;
+}
+.StandardSpread .SprTbl table thead tr{
+	background: url(/lp/pop/stdspr/_img/gradation.png);
+	border-top: none;
+	border-bottom: 3px solid #666666;
+	font-weight: bold;
+	height: 45px;
+}
+
+.StandardSpread .SprTbl table tbody tr.color{
+	background-color: #f3f3f3;
+}
+.StandardSpread .SprTbl table tbody tr:hover{
+	background-color: #ffbbbb;
+}
+.StandardSpread .SprTbl table tbody tr td{
+	text-align: center;
+}
+.StandardSpread .SprTbl table tbody tr td.LangJa{
+	font-weight: bold;
+}
+/********/
+.spread-info{
+	background-color: #f2dede;
+	border-color: #ebccd1;
+	border-radius: 4px;
+	padding: 7px 12px ;
+	font-size:12px;
+	text-align: left;
+	margin: 10px 0;
+}
+.spread-info span.change{
+	margin: 0 0.25em;
+	font-weight: bold;
+}
+
+tr{
+/*	height:90px;*/
+}
+tr td{
+/*	padding-top:20px;*/
+}
+tr th span{
+/*	margin-top:20px;*/
+}
+
+
+img.Info1{
+	position: absolute;
+	right: 400px;
+	top: 510px;
+}
+
+/* //NormalSpead*/
+/*-------------------------------------------------------------*/
+
+.TableTtl {
+	border-left: 6px solid;
+	color: #014c1e;
+	font-size: 34px;
+	font-weight: bold;
+	line-height: 1em;
+	padding-left: 0.5em;
+}
+.TableTtl .Sub {
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 1em;
+}
+.TablePreTxt {
+	background-color: #eee;
+	border: 1px solid #ccc;
+	box-sizing: padding-box;
+	margin-bottom: 1em;
+	padding: 1em;
+}
+.TablePreTxt .TxtTtl {
+	font-size: 16px;
+	line-height: 1em;
+	margin: 0 0 0.5em;
+	padding: 0;
+	width: 100%;
+}
+.TablePreTxt p {
+	line-height: 1em;
+	text-align: left;
+}
+.TablePreTxt p:last-child {
+	margin-bottom: 0!important;
+}
+.SpInfo h2 {
+	font-size: 34px;
+	font-weight: bold;
+	color: #014c1e;
+}
+
+/* スプレッド0.2銭対応
+/*-------------------------------------------------------------*/

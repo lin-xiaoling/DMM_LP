@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+.cb_bana {
+width: 100%;
+    background: #fff;
+    display: block;
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 30px;
+	}
+
+#tieup {
+	margin: 0 auto;
+	text-align: center;
+}
+#moppy_renewal_head {
+	background-image: url(../img/moppy_ttl_bg_1.png), url(../img/moppy_ttl_bg_2.png);
+	background-size: auto, cover;
+	background-position: top center, left top;
+	background-repeat: no-repeat, no-repeat;
+    background-color: #fff;
+    height: 460px;
+	border-top:solid 10px #20ABA2;
+	text-align:center;
+}
+#moppy_renewal_head h1 {
+	width:1000px;
+	margin:32px auto 0 auto;
+	text-align:left;
+}
+#moppy_renewal_entry_bg {
+	background-color:#EEEEEE;
+	border-top:solid 1px #BBBBBB;
+	border-bottom:solid 1px #BBBBBB;
+	padding:36px 0;
+	text-align: center;
+}
+#moppy_renewal_flow_ttl {
+	margin-top:-74px;
+}
+
+.entry_btn,.anchor_link {
+	padding: 0px;
+	text-align: center;	
+}
+.entry_btn {
+	margin-top: 30px;
+}
+.anchor_link {
+	margin-bottom: 60px;
+}

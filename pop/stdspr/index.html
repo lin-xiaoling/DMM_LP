@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ja">
+
+<head>
+	<meta name="robots" content="noindex" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta property="og:image" content="https://fx.dmm.com/_img/DMM.comlogo.png" />
+	<meta name="Slurp" content="NOYDIR" />
+	<meta name="google-site-verification" content="xWVe0nCfcRWdat8fO-ghHxZ-uuejRXYBXGmJxoQfKyU" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title> FX/CFD取引のDMM.com証券</title>
+	<link rel="stylesheet" type="text/css" href="/lp/_css/import.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="./_css/stdspr_detail.css" media="all" />
+	<link href='https://fonts.googleapis.com/css?family=Scada:400,700' rel='stylesheet' type='text/css'>
+
+	<?php include($_SERVER['DOCUMENT_ROOT']."/lp/_include/tag_head.tpl"); ?>
+
+</head>
+
+<body>
+
+	<?php include($_SERVER['DOCUMENT_ROOT']."/_include/tag/tag_bodytop.tpl"); ?>
+
+
+	<div id="PopWrapper">
+
+		<!-- コンテンツここから -->
+		<div id="LpPop" class="PopStdSpr">
+			<div id="ContentWrapp" class="iepngfix">
+				<div id="LpDmmHeader">
+					<h1>DMM FX by DMM.com証券</h1>
+				</div>
+
+				<div id="Content">
+					<!-- StrSprCommon -->
+					<div class="SpInfo">
+						<h2>DMMFXは、業界最狭水準スプレッドでご提供!!</h2>
+
+						<p>大人気通貨ペアの<span class="Red">USD/JPY（米ドル円） 原則0.2銭固定</span>！<br />
+							さらに、<span class="Red">EUR/JPY（ユーロ円）原則0.5銭固定</span>、<span class="Red">GBP/JPY（英ポンド円）原則1.0銭固定</span>スプレッドでご提供しております。 複数のカバー先から受けるレートを元に独自生成したレートをお客様に提示し、業界最狭水準のスプレッドでレート配信を実現しております。
+						</p>
+
+						<div class="SprDiscrBox">
+							<p class="Gensoku"><img src="_img/gensoku.png" width="120" height="65" alt="原則固定【例外あり】" /></p>
+							<ul class="SprDiscr">
+								<li>※スプレッドは固定されたスプレッドではありません。リーマンショックや東日本大震災のような突発的な事象が発生した場合や、市場の流動性が低下している場合（月曜日の午前7時～午前8時頃、夏時間の午前6時前後（冬時間の午前7時前後）、年末年始、クリスマス時期など）、経済指標の発表前後の時間帯等（経済指標カレンダーは<a href="/market/indicators/" target="_blank">こちら</a>）においては、スプレッドが拡大する場合があります。また、当社がカバー先等から受信するレートのスプレッドが拡大した場合は、お客様に配信する外国為替レートのスプレッドも拡大します。なお、その上限は一定値に限定されません。</li>
+								<li>※注文の成立に伴い、スリッページが発生する可能性があります。スリッページとは、一般的に注文時の表示価格と約定価格との差を指していますが、当該価格差については、お客様にとって有利な場合もあれば、不利な場合もあります。</li>
+							</ul>
+						</div>
+
+						<div class="StandardSpread">
+							<div class="SprTbl Clear">
+
+								<table summary="DMMFXの基準スプレッド表1" class="SprTbl01">
+									<thead>
+										<tr>
+											<th abbr="通貨ペア" colspan="2" class="PairTtl">通貨ペア</th>
+											<th abbr="スプレッド値">スプレッド</th>
+											<th abbr="配信率">配信率</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<th><span class="Frag USD"></span><span class="Frag JPY"></span><br />USD/JPY</th>
+											<td class="LangJa">米ドル/円</td>
+											<td><span class="SprNum">0.1</span>銭</td>
+											<td><span class="SprNum">95.75</span>&#37;以上</td>
+										</tr>
+										<tr class="color">
+											<th><span class="Frag EUR"></span><span class="Frag JPY"></span><br />EUR/JPY</th>
+											<td class="LangJa">ユーロ/円</td>
+											<td><span class="SprNum">0.3</span>銭</td>
+											<td><span class="SprNum">96.48</span>&#37;以上</td>
+										</tr>
+										<tr>
+											<th><span class="Frag GBP"></span><span class="Frag JPY"></span><br />GBP/JPY</th>
+											<td class="LangJa">ポンド/円</td>
+											<td><span class="SprNum">0.6</span>銭</td>
+											<td><span class="SprNum">96.32</span>&#37;以上</td>
+										</tr>
+										<tr class="color">
+											<th><span class="Frag AUD"></span><span class="Frag JPY"></span><br />AUD/JPY</th>
+											<td class="LangJa">豪ドル/円</td>
+											<td style="position:relative;">
+												<span class="SprNum">0.4</span>銭
+											</td>
+											<td><span class="SprNum">96.47</span>&#37;以上</td>
+										</tr>
+										<tr>
+											<th><span class="Frag NZD"></span><span class="Frag JPY"></span><br />NZD/JPY</th>
+											<td class="LangJa">NZドル/円</td>
+											<td><span class="SprNum">0.9</span>銭</td>
+											<td><span class="SprNum">95.88</span>&#37;以上</td>
+										</tr>
+										<tr class="color">
+											<th><span class="Frag CHF"></span><span class="Frag JPY"></span><br />CHF/JPY</th>
+											<td class="LangJa">スイスフラン/円</td>
+											<td><span class="SprNum">1.6</span>銭</td>
+											<td><span class="SprNum">95.93</span>&#37;以上</td>
+										</tr>
+										<tr>
+											<th><span class="Frag CAD"></span><span class="Frag JPY"></span><br />CAD/JPY</th>
+											<td class="LangJa">カナダドル/円</td>
+											<td><span class="SprNum">1.5</span>銭</td>
+											<td><span class="SprNum">96.08</span>&#37;以上</td>
+										</tr>
+										<tr class="color">
+											<th><span class="Frag ZAR"></span><span class="Frag JPY"></span><br />ZAR/JPY</th>
+											<td class="LangJa">南アランド/円</td>
+											<td><span class="SprNum">0.8</span>銭</td>
+											<td><span class="SprNum">96.26</span>&#37;以上</td>
+										</tr>
+										<tr>
+											<th><span class="Frag EUR"></span><span class="Frag USD"></span><br />EUR/USD</th>
+											<td class="LangJa">ユーロ/米ドル</td>
+											<td><span class="SprNum">0.3</span>pips</td>
+											<td><span class="SprNum">95.84</span>&#37;以上</td>
+										</tr>
+										<tr class="color">
+											<th><span class="Frag GBP"></span><span class="Frag USD"></span><br />GBP/USD</th>
+											<td class="LangJa">ポンド/米ドル</td>
+											<td><span class="SprNum">0.6</span>pips</td>
+											<td><span class="SprNum">95.96</span>&#37;以上</td>
+										</tr>
+									</tbody>
+								</table>
+
+								<table summary="DMMFXの基準スプレッド表2" class="SprTbl02">
+									<thead>
+										<tr>
+											<th abbr="通貨ペア" colspan="2" class="PairTtl">通貨ペア</th>
+											<th abbr="スプレッド値">スプレッド</th>
+											<th abbr="配信率">配信率</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<th><span class="Frag AUD"></span><span class="Frag USD"></span><br />AUD/USD</th>
+											<td class="LangJa">豪ドル/米ドル</td>
+											<td><span class="SprNum">0.4</span>pips</td>
+											<td><span class="SprNum">96.21</span>&#37;以上</td>
+										</tr>
+										<tr class="color">
+											<th><span class="Frag NZD"></span><span class="Frag USD"></span><br />NZD/USD</th>
+											<td class="LangJa">NZドル/米ドル</td>
+											<td><span class="SprNum">1.4</span>pips</td>
+											<td><span class="SprNum">95.86</span>&#37;以上</td>
+										</tr>
+										<tr>
+											<th><span class="Frag USD"></span><span class="Frag CHF"></span><br />USD/CHF</th>
+											<td class="LangJa">米ドル/スイスフラン</td>
+											<td><span class="SprNum">1.5</span>pips</td>
+											<td><span class="SprNum">96.04</span>&#37;以上</td>
+										</tr>
+										<tr class="color">
+											<th><span class="Frag USD"></span><span class="Frag CAD"></span><br />USD/CAD</th>
+											<td class="LangJa">米ドル/カナダドル</td>
+											<td><span class="SprNum">1.6</span>pips</td>
+											<td><span class="SprNum">96.86</span>&#37;以上</td>
+										</tr>
+										<tr>
+											<th><span class="Frag EUR"></span><span class="Frag GBP"></span><br />EUR/GBP</th>
+											<td class="LangJa">ユーロ/ポンド</td>
+											<td><span class="SprNum">0.8</span>pips</td>
+											<td><span class="SprNum">95.96</span>&#37;以上</td>
+										</tr>
+										<tr class="color">
+											<th><span class="Frag EUR"></span><span class="Frag AUD"></span><br />EUR/AUD</th>
+											<td class="LangJa">ユーロ/豪ドル</td>
+											<td><span class="SprNum">1.4</span>pips</td>
+											<td><span class="SprNum">95.99</span>&#37;以上</td>
+										</tr>
+										<tr>
+											<th><span class="Frag EUR"></span><span class="Frag NZD"></span><br />EUR/NZD</th>
+											<td class="LangJa">ユーロ/NZドル</td>
+											<td><span class="SprNum">2.9</span>pips</td>
+											<td><span class="SprNum">95.88</span>&#37;以上</td>
+										</tr>
+										<tr class="color">
+											<th><span class="Frag EUR"></span><span class="Frag CHF"></span><br />EUR/CHF</th>
+											<td class="LangJa">ユーロ/スイスフラン</td>
+											<td><span class="SprNum">1.6</span>pips</td>
+											<td><span class="SprNum">96.43</span>&#37;以上</td>
+										</tr>
+										<tr>
+											<th><span class="Frag GBP"></span><span class="Frag AUD"></span><br />GBP/AUD</th>
+											<td class="LangJa">ポンド/豪ドル</td>
+											<td><span class="SprNum">1.4</span>pips</td>
+											<td><span class="SprNum">95.91</span>&#37;以上</td>
+										</tr>
+										<tr class="color">
+											<th><span class="Frag GBP"></span><span class="Frag CHF"></span><br />GBP/CHF</th>
+											<td class="LangJa">ポンド/スイスフラン</td>
+											<td><span class="SprNum">2.6</span>pips</td>
+											<td><span class="SprNum">96.17</span>&#37;以上</td>
+										</tr>
+									</tbody>
+								</table>
+							</div><!-- //.SprTbl　-->
+
+							<ul class="Note">
+								<li>※上記スプレッドは、2020年9月1日～2020年9月30日営業日における、スプレッド縮小期間(9:00～翌3:00)における提示率です。(2020年10月1日当社調べ)</li>
+								<li>※この提示率は過去の実績であり、将来の数値を保証するものではありません。</li>
+								<li>※掲示率の最新情報は<a href="/fx/service/spread/">こちら</a></li>
+							</ul>
+
+
+							<p class="update">広告掲載日(2020/10/08)</p>
+
+						</div><!-- //.StandardSpread　-->
+
+						<p class="OutTxt">[商号等]　株式会社DMM.com証券　第一種金融商品取引業者　第二種金融商品取引業者　商品先物取引業者<br />[登録番号]　関東財務局長（金商）第1629号<br />[加入協会]　日本証券業協会　一般社団法人金融先物取引業協会　日本商品先物取引協会　一般社団法人第ニ種金融商品取引業協会　日本投資者保護基金</p>
+
+						<div class="popClose"><a onclick="window.close(); return false;" href="#"><img src="./_img/popclose.png" width="56" height="20" border="0" alt="閉じる"></a></div>
+
+						<div id="ContentFooter" class="Clear">
+							<address>Copyright &copy; DMM.com Securities Co.,Ltd. All rights reserved.</address>
+						</div>
+					</div>
+				</div><!-- //Content -->
+			</div><!-- //ContentWrapp -->
+		</div><!-- //PopStdSpr -->
+		<!-- コンテンツここまで -->
+	</div><!-- //PopWrapper -->
+	<?php include($_SERVER['DOCUMENT_ROOT']."/_include/tag/tag_footer_lp.tpl"); ?>
+
+<!-- #BeginLibraryItem "/Library/gtag_ydn.lbi" -->
+<!-- Global site tag (gtag.js) - Google Ads: 984400895 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-984400895"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+ 
+  gtag('config', 'AW-984400895');
+ </script>
+<!-- Global site tag (gtag.js) - Google Ads: 961475481 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-961475481"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+ 
+  gtag('config', 'AW-961475481');
+ </script>
+<script async src="https://s.yimg.jp/images/listing/tool/cv/ytag.js"></script>
+<script>
+ window.yjDataLayer = window.yjDataLayer || [];
+ function ytag() { yjDataLayer.push(arguments); }
+ ytag({
+  "type":"yss_retargeting",
+  "config": {
+  "yahoo_ss_retargeting_id": "1000135862",
+  "yahoo_sstag_custom_params": {
+  }
+  }
+ });
+ </script>
+<!-- YDN -->
+<script async src="https://s.yimg.jp/images/listing/tool/cv/ytag.js"></script>
+<script>
+ window.yjDataLayer = window.yjDataLayer || [];
+ function ytag() { yjDataLayer.push(arguments); }
+ ytag({
+  "type":"yjad_retargeting",
+  "config":{
+  "yahoo_retargeting_id": "0BOD055YGW",
+  "yahoo_retargeting_label": ""
+  /*,
+  "yahoo_retargeting_page_type": "",
+  "yahoo_retargeting_items":[
+  {item_id: '', category_id: '', price: '', quantity: ''}
+  ]*/
+  }
+ });
+ </script>
+<!-- #EndLibraryItem -->
+</body>
+
+</html>

@@ -1,0 +1,353 @@
+/* ========================= [ ここからタイアップ ] */
+.area-tieup {
+	margin:0 auto;
+	text-align:center;
+	width:100%;
+}
+/* =========== [ .tieup-fv ] */
+/* 20190212追記 start */
+.area-tool {
+    padding: 0% 0 10%;
+}
+.area-tool h1 {
+    width: 92%;
+}
+.area-tool p.tx-tool-02+hr {
+	width: 45%;
+  margin: 0 auto;
+  margin-bottom: 10%;
+}
+.area-tool p.tx-tool-02.w90+hr {
+	width: 90%;
+  margin: 0 auto;
+  margin-bottom: 10%;
+}
+.area-tool .area-system p.tx-tool-02 {
+    padding-bottom: 0%;
+}
+
+.area-tool .area-system dl dt.standard {
+    background: inherit;
+    background-size: inherit;
+}
+.entry_btn a {
+    width: 92%;
+    margin: 0 auto;
+}
+.area-support {
+		margin-top: 10%;
+    margin-bottom: 10%;
+}
+.area-information {
+    background-color: #fff;
+}
+footer #copyright {
+    padding: 20% 0 25% 0;
+    background-color: #2F941B;
+}
+
+.area-tieup .linkBody {
+	position: relative;
+}
+
+.area-tieup .linkBody a {
+	width: 74%;
+	height: 44px;
+	position: absolute;
+	bottom: 20%;
+	left: 6%;
+}
+
+.area-tieup .tieup-fv {
+}
+
+.area-tieup .tieup-fv h1 {
+}
+
+.area-tieup .tieup-fv .content-tieup-fv {
+	-moz-box-shadow:0 0 4px rgba(51,51,51,0.6);
+	-webkit-box-shadow:0 0 4px rgba(51,51,51,0.6);
+	background-color: #fff;
+	box-shadow: 0 0 4px rgba(51,51,51,0.6);
+	margin: 4% auto 5%;
+	padding: 3% 0 4%;
+	position: relative;
+	width: 94.66%;
+}
+.area-tieup .tieup-fv .content-tieup-fv .tx-fv-main {
+	margin-top: 7px;
+}
+
+.area-tieup .tieup-fv .content-tieup-fv li {
+	margin: 0 auto;
+	width: 90.36%;
+}
+.area-tieup .tieup-fv .content-tieup-fv li.link-content-tieup-fv {
+	margin: 6% 0 3% 2.5%;
+}
+.area-tieup .tieup-fv .content-tieup-fv li.link-content-tieup-fv a{
+	border-bottom: 1px solid #11cfff;
+	color: #11cfff;
+	display: inline-block;
+	font-size: 3.9vw;
+	line-height: 4.86vw;
+	position: relative;
+	text-decoration: none;
+}
+.area-tieup .tieup-fv .content-tieup-fv li.link-content-tieup-fv a::after{
+	background:url(../_img/ico_txdown.gif)top center no-repeat;
+	background-size: 100%;
+	content: "";
+	height: 68%;
+	position: absolute;
+	right: -7%;
+	top: 30%;
+	width: 5%;
+}
+
+.area-tieup .tieup-fv .content-tieup-fv li.tx-content-tieup-fv {
+	background-color:#c4e5e4;
+	font-size:4vw;
+	line-height:5.86vw;
+	margin:3% auto;
+	padding:2% 0;
+	border-radius: 5px;
+	width: 86%;
+}
+.area-tieup .tieup-fv .content-tieup-fv li.bt-content-tieup-fv a {
+	border-bottom: 1px solid #a09f9f;
+	color: #838383;
+	display: inline-block;
+	font-size: 3.4vw;
+	line-height: 3.4vw;
+	padding-bottom: 0.5%;
+	text-decoration: none;
+}
+.area-tieup .tieup-fv p.bt-content-tieup-fv {
+	margin: 5% auto;
+}
+.area-tieup .tieup-fv p.bt-content-tieup-fv a {
+	border-bottom: 1px solid #a09f9f;
+	color: #838383;
+	display: inline-block;
+	font-size: 3vw;
+	line-height: 3.4vw;
+	padding-bottom: 0.5%;
+	text-decoration: none;
+}
+
+/* =========== [ .tieup-limit ] */
+.area-tieup .tieup-limit {
+	margin: 5% 0;
+}
+.area-tieup .tieup-limit dl {
+	margin: 0 auto;
+	padding-bottom: 6%;
+	width: 100%;
+}
+.area-tieup .tieup-limit dl .capt-tieup-limit {
+	margin: 0;
+}
+.area-tieup .tieup-limit dd {
+	margin: 0 auto;
+}
+.area-tieup .tieup-limit dd.bt-camp-limit {
+	margin-top:6%;
+	width:83.94%;
+}
+
+/* =========== [ .tieup-flow ] */
+.area-tieup .tieup-flow::after {
+	background:url(../_img/ico_plus_la_sp.png)top center no-repeat;
+	background-size:100%;
+	content:"";
+	height:3.5%;
+	left:44.53%;
+	position:absolute;
+	top:-2%;
+	width:10.66%;
+}
+.area-tieup .tieup-flow .camp_flow {
+	background:#f7f7f7;
+	padding:9.33% 0 0;
+	position:relative;
+	text-align:center;
+	z-index:0;
+}
+.area-tieup .tieup-flow .camp_flow .content-camp-flow {
+	-moz-box-shadow:0 0 4px rgba(51,51,51,0.6);
+	-webkit-box-shadow:0 0 4px rgba(51,51,51,0.6);
+	background-color:#fff;
+	box-shadow:0 0 4px rgba(51,51,51,0.6);
+	margin:0 auto;
+	padding-bottom:9.33%;
+	position:relative;
+	width:89.33%;
+}
+.area-tieup .tieup-flow .camp_flow .content-camp-flow a {
+	border-bottom:1px solid #11cfff;
+	color:#11cfff;
+	display:inline-block;
+	font-size:4.533vw;
+	line-height:4.533vw;
+	margin:2% 0;
+	padding-bottom:1%;
+	text-decoration:none;
+}
+.area-tieup .tieup-flow .camp_flow .bt-camp-flow-01 {
+	margin:3%;
+}
+.area-tieup .tieup-flow .camp_flow .bt-camp-flow-02 {
+	bottom:32%;
+	left:23%;
+	position:absolute;
+}
+.area-tieup .tieup-flow .camp_flow .capt-camp-flow {
+	font-size:8vw;
+	padding:8% 0 3%;
+	text-align:center;
+}
+.area-tieup .tieup-flow .camp_flow .pic-camp-flow-01 {
+	margin:0 auto;
+	width:88.75%;
+}
+.area-tieup .tieup-flow .camp_flow .pic-camp-flow-02 {
+	margin:0 auto;
+	width:87.91%;
+}
+.area-tieup .tieup-flow .camp_flow .pic-camp-flow-03 {
+	margin:0 auto;
+	width:88.05%;
+}
+.area-tieup .tieup-flow .camp_flow .tx-camp-flow {
+	font-size:5.33vw;
+	margin:5% 0;
+	text-align:center;
+}
+.area-tieup .tieup-flow .camp_flow .tx-cache-back {
+	font-size:7.46vw;
+	padding:2% 0 8%;
+}
+.area-tieup .tieup-flow .camp_flow .tx-cache-back .tx-equal {
+	display:inline-block;
+	font-size:5.333vw;
+	margin:1.5% 0 0;
+}
+.area-tieup .tieup-flow .camp_flow .tx-cache-back .tx-price {
+	color:#48b0a9;
+	font-size:15.73vw;
+}
+.area-tieup .tieup-flow .camp_flow .tx-cache-back .tx-max,.area-tieup .tieup-flow .camp_flow .tx-cache-back .tx-yen {
+	color:#48b0a9;
+	font-size:7.86vw;
+}
+.area-tieup .tieup-flow,.area-tieup .tieup-flow .camp_flow dl {
+	position:relative;
+}
+
+/* =========== [ .regist-tieup ] */
+.regist-tieup {
+	border-bottom:1px solid #b5b5b5;
+	border-top:1px solid #b5b5b5;
+	margin:10% auto 0;
+	padding:8% 0 10%;
+	width: 89.33%;
+}
+.regist-tieup p:first-child {
+	font-size:4.8vw;
+	margin: 5% 0;
+	text-align: center;
+}
+.regist-tieup-plus{
+	border: none;
+	margin-top: 0;
+	padding: 0;
+}
+
+/* キャンペーン詳細ポップアップ
+******************/
+.campWrap {
+	background:none repeat scroll 0 0 #fff;
+	font-family:sans-serif;
+	margin:bottom:10px;
+	overflow:hidden;
+}
+.camphead h1 {
+	background:linear-gradient(#ddc063 0%, #bd9033 49%, #9b6e14 50%, #c4911c 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	border:1px solid #9b6e14;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	height:40px;
+	line-height:40px;
+	margin:0;
+	text-align:center;
+	text-shadow:0 0 5px #9e7014;
+	width:100%;
+}
+.camphead h2 {
+	margin:0;
+}
+#wrap-tieupCamp-detail {
+	display:none;
+}
+.campsect {
+	background-color:#fff !important;
+	margin:0 auto 4%;
+	width:96%;
+}
+.campsect p {
+	color:#000;
+	font-size:1.3em;
+	line-height:1.4;
+}
+.campsect_inner {
+	border:1px solid #000;
+	margin-bottom:15px;
+	margin-top:10px;
+	padding-bottom:10px;
+	text-align:left;
+}
+.campsect_ttl {
+	background:#000;
+	color:#fff;
+	font-size:1.2em;
+	font-weight:bold;
+	margin:10px 0;
+	padding:0.5em 0 0.5em 0.5em;
+}
+.campsect_txt {
+	font-size:1.1em !important;
+	padding-left:0.6em;
+}
+.campsect_bottom {
+	font-size:1.1em !important;
+	text-align:left;
+}
+.first-txt {
+	margin-left:0.3em;
+	margin-right:0.3em;
+	text-align:center;
+}
+.txt_small {
+	font-size:12px !important;
+	line-height:1.2em !important;
+}
+.txt_red {
+	color:#ff0000;
+}
+.campsect p.caution {
+	color:red;
+	font-weight:bold;
+}
+.campsect h3 {
+	color:#ff6600;
+	font-size:16px;
+	font-weight:bold;
+	margin:10px 0 5px;
+}
+/* キャンペーン詳細ポップアップ　ここまで
+******************/
+.remodal img{
+	width: 100%;
+}

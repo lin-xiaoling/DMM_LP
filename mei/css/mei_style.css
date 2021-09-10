@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+#tieup {
+	margin: 0 auto;
+	text-align: center;
+	background: #fff;
+}
+
+#tieup p,#section08 + p {
+	text-align: center;
+	padding: 0px;
+	line-height: 0;
+}
+
+#tieup_mei {
+    height: auto;
+    background: url(../img/mei_header_new_bg.jpg) no-repeat center;
+    position: relative;
+}
+#tieup_mei h1 {
+    background-color: #fff;
+}
+
+#tieup_mei .wrap {
+    max-width: 1400px;
+    margin: auto;
+    position: relative;
+}
+
+#tieup_mei .link_btn .anchor_link {
+    position: absolute;
+    top: 58%;
+    left: 11%;
+    width: 18%;
+}
+
+#tieup_mei .link_btn .report {
+        position: absolute;
+    top: 50%;
+    left: 29%;
+    width: 11%;
+}
+
+#mei_dmmcamp {
+	background: #6DCBE5;
+	padding: 10px 0 35px;	
+}
+
+p#step {
+    padding-top: 30px;
+}
+	
+.firstBtn_tieup_mei {
+	padding-top: 93px !important;	
+}

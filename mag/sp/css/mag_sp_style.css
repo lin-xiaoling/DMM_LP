@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+
+#tieup {background: #ffffff; margin-top: 0; padding-bottom: 10px}
+#tieup_ttl {padding:0; margin-bottom:10px; text-align:center;}
+#tieup_ttl h1,#tieup_ttl h2,#tieup_ttl #arrow,#tieup_ttl #main,#tieup_ttl h3,#tieup_head p {
+	padding:0;
+	margin:0;
+	line-height:0;
+}
+#tieup p {
+	text-align: center;
+	padding: 0px;
+	line-height: 0;
+}
+#tieup img {
+	width: 100%;	
+}
+#tieup_btn_first_title {
+	width: 69%;
+	margin: 16px auto 0px;
+	text-align: center;	
+}
+.tieup_btn_first {
+	width: 90%;
+	display: block;	
+	margin: 1.3em auto 0;
+}
+.tieup_btn_middle {
+	width: 90%;
+	display: block;	
+	margin: 2.7em auto 0;
+}
+.tieup_btn_bottom {
+	padding: 0px;
+	line-height: 0;
+	width: 100%;
+	text-align: center;
+	display: block;	
+	margin-bottom: 40px;
+}
+.tieup_btn img {
+	width: 96%;
+	margin: 0 auto;
+	text-align: center;	
+}
+#camp_flow {
+	width: 85%;
+	margin: 30px auto 15px;
+	text-align: center;	
+}
+#step1 {
+	width: 96%;
+	margin: 0px auto;
+	text-align: center;	
+}
+.step1 {
+	width:96%;
+	margin:0 auto;
+	text-align:center;	
+}
+#step2 {
+	width: 96%;
+	margin: 0px auto 20px;
+	text-align: center;	
+}
+#tieup_address {
+	padding:0 !important;
+	margin:0 auto 2em !important;
+}
+.head_tieup {
+	margin: 1.8em auto 4em !important;	
+}
+#step2_auwallet {
+	width: 96%;
+	margin: 0 auto 20px;
+	text-align: center;	
+}
+#camp_flow_tsite {
+	width: 96%;
+	margin: 40px auto 15px;
+	text-align: center;	
+}
+#tieup_btn_first_title_a8 {
+	width: 62%;
+	margin: 16px auto 0px;
+	text-align: center;	
+}
+#camp_flow_title {
+	width: 62%;
+	margin: 30px auto 15px;
+	text-align: center;	
+}
+#mag_select_camp_detail {
+    background: url(../img/mag_select_camp_detail_bg.gif) repeat-y 0 0;
+	background-size:contain;
+}
+#mag_select_camp_detail ul {
+	padding:0.3em 0 1em 0;
+	text-align:center;
+}
+#mag_select_camp_detail ul li {
+	list-style:none;
+	margin:0 auto 0.75em auto;
+	width:86%;
+}
+#mag_select_camp_detail ul li:last-child {
+	margin-bottom:0.2em;
+}
+#mag_select_camp_detail ul li a {
+	display:block;
+	width:100%;
+}
+#mag_select_camp_detail ul li:first-child a {
+    background: url(../img/mag_select_report01_on.jpg) no-repeat 0 0;
+	background-size:cover;
+}
+#mag_select_camp_detail ul li:first-child a.selected img {
+	visibility:hidden;
+}
+#mag_select_camp_detail ul li:nth-child(2) {
+    background: url(../img/mag_select_report02_on.jpg) no-repeat 0 0;
+	background-size:cover;
+}
+#mag_select_camp_detail ul li:nth-child(2) a.selected img {
+	visibility:hidden;
+}
+#mag_select_camp_detail ul li:nth-child(3) {
+    background: url(../img/mag_select_report03_on.jpg) no-repeat 0 0;
+	background-size:cover;
+}
+#mag_select_camp_detail ul li:nth-child(3) a.selected img {
+	visibility:hidden;
+}
+#mag_select_camp_detail .report {
+    width: 47%;
+	margin: 0 auto 3%;
+}

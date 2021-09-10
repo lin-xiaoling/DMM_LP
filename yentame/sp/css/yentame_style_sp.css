@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+
+#tieup {background: ##ffffff00; margin-top: 0; padding-bottom: 10px}
+#tieup_ttl {padding:0; margin-bottom:10px; text-align:center;}
+#tieup_ttl h1,#tieup_ttl h2,#tieup_ttl #arrow,#tieup_ttl #main,#tieup_ttl h3,#tieup_head p {
+	padding:0;
+	margin:0;
+	line-height:0;
+}
+#tieup img {
+	width: 100%;	
+}
+#tieup h2,#tieup p {
+	line-height: 0;
+padding: 0px;
+    margin-bottom: 0px;
+    position: inherit;
+}
+#tieup_btn_first_title {
+	width: 69%;
+	margin: 16px auto 0px;
+	text-align: center;	
+}
+.tieup_btn_first {
+	width: 90%;
+	display: block;	
+	margin: 1.3em auto 0;
+}
+.tieup_btn_middle {
+	width: 90%;
+	display: block;	
+	margin: 0px auto;
+}
+.tieup_btn img {
+	width: 96%;
+	margin: 0 auto;
+	text-align: center;	
+}
+#camp_flow {
+	width: 85%;
+	margin: 30px auto 15px;
+	text-align: center;	
+}
+#step1 {
+	width: 96%;
+	margin: 0px auto;
+	text-align: center;	
+}
+.step1 {
+	width:96%;
+	margin:0 auto;
+	text-align:center;	
+}
+#step2 {
+	width: 96%;
+	margin: 0px auto 20px;
+	text-align: center;	
+}
+#tieup_address {
+	padding:0 !important;
+	margin:0 auto 2em !important;
+}
+.head_tieup {
+	margin: 1.8em auto 4em !important;	
+}
+#step2_auwallet {
+	width: 96%;
+	margin: 0 auto 20px;
+	text-align: center;	
+}
+#camp_flow_tsite {
+	width: 62%;
+	margin: 40px auto 15px;
+	text-align: center;	
+}
+#tieup_btn_first_title_a8 {
+	width: 62%;
+	margin: 16px auto 0px;
+	text-align: center;	
+}
+#camp_flow_title {
+	width: 62%;
+	margin: 30px auto 15px;
+	text-align: center;	
+}
+.tieup_yentame { padding-bottom: 0px !important;}
+.yentame_renewal_entry_btn {
+	background-color:#EEEEEE;
+}
+.yentame_renewal_entry_btn a{
+	width:92%;
+	margin:0 auto;
+}
+.yentame_renewal_entry_btn {
+	background-color:#EEEEEE;
+}
+#tieup .yentame_renewal_entry_btn a img, .entry_btn img{
+	width:95%;
+	margin:0 auto;
+	display: block;
+}
+
+.entry_btn {
+	padding: 0;
+}
+
+.anchor_link {
+	text-align: center;
+	padding: 0px;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}

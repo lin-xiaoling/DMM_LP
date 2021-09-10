@@ -1,0 +1,52 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><!-- #section05 -->
+<section id="section05"> <span class="add">さらに</span><b class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">突発ニュースを「いち早く」「正確に」</b>
+  <h2 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">経済ニュースを<br>
+    無料提供</h2>
+  <div class="subtitle">
+    <!--b>突発ニュースを「いち早く」「正確に」</b><p>時事通信社の経済ニュースを<br>無料提供</p-->
+    <img src="../common/sp/img/txt_special_news.png" alt=""></div>
+  <p>経済指標発表や要人などのニュースを発信し、<br>
+    長年に渡り多くの機関投資家から支持を集めています。</p>
+  <figure class="capture"><img src="../common/sp/img/capture_m04.png" alt="チャート"></figure>
+  <!--ul>
+		<li><span class="mark"></span><em>新規お取引毎にポイント付与</em><br>新規取引１lotに対し、ランクに応じたポイントが付与されます。</li>
+		<li><span class="mark"></span><em>1ポイント＝1円で現金に交換可能</em><br>カンタン操作で、DMMFXの口座にキャッシュバックされます。そのままお取引にも使用可能です。</li>
+		<li><span class="mark"></span><em>ポイントランクでポイント最大3倍</em><br>お取引実績に応じて、ポイントの付与数が変わります。<br>最大で3倍の取引応援ポイントが付与されます。</li>
+	</ul-->
+</section>
+<!-- #section05 END -->
+<!-- #section06 -->
+<section id="section06"> <b>100%信託保全</b>
+  <h2>安心・安全の<br>
+    完全信託保全</h2>
+  <a class="button pop_btn" href="#modal-options3"><span class="plus"></span> <span>詳しく見る</span></a>
+  <div class="remodal modal-options3" data-remodal-id="modal-options3">
+    <figure><img src="../common/img/logo_trust_bank.jpg" alt="銀行"></figure>
+    <p>お客様の大切な資産で安心してお取引いただくために、法令に基づき、お客様から預託された証拠金等の資金は『日証金信託銀行株式会社』、『株式会社SMBC信託銀行』、および『SBIクリアリング信託株式会社』へ信託保全を行う方法により当社の財産とは区分して管理しています。信託保全されたお客様の資産は、万が一当社が破綻した場合であっても保全されます。なお、信託先銀行が破綻した場合も信託法により信託先銀行固有の財産から切り離して取扱われるため、信託財産として保全されます。<br>
+      当社では、毎営業日終了時（マーケットクローズ）に当社で確認できたお客様の預託証拠金残高、評価損益およびスワップポイントを加味した金額（区分管理必要額）を受託先銀行に信託しております。</p>
+    <figure class="capture"><img src="../common/img/operation01.png" alt="通常時"></figure>
+    <figure class="capture"><img src="../common/img/operation02.png" alt="DMM.com証券 破綻時"></figure>
+    <div class="close">
+      <button data-remodal-action="cancel" class="remodal-cancel bw" href="#"> <span class="TB_closeMinus"></span> <span>閉じる</span></button>
+    </div>
+  </div>
+</section>
+<!-- #section06 END -->
+<!-- #section07 -->
+<section id="section07" > <b>即時に入金反映</b>
+  <h2>365日・24時間<br>
+    クイック入金サービス<br>
+    約340金融機関対応</h2>
+  <a class="button pop_btn" href="#modal-options4"><span class="plus"></span> <span>詳しく見る</span></a>
+  <div class="remodal modal-options4" data-remodal-id="modal-options4">
+    <p>〔クイック入金〕とは、FX取引ツールより指示する入金方法です。<em>入金時の振込手数料は無料で、手続き後リアルタイムでDMM FX取引口座に反映され、お取引のタイミングを逃しません。</em>また、DMM FXでは約340の金融機関（都市銀行、ゆうちょ銀行、ネット銀行、地方銀行、ろうきん、信金）でインターネットバンキングの契約があれば手続き不要でご利用いただけるサービスです。「クイック入金」はPC、モバイル、スマートフォンからも利用することができます。<br>
+      ※モバイル、スマートフォンからご利用できない金融機関が一部あります。</p>
+    <div class="subtitle">
+      <p>主な提携金融機関</p>
+      <small>都市銀行・ゆうちょ銀行・ネット銀行・地方銀行・<br>ろうきん・信金など、約340金融機関に対応。</small><img src="../common/img/financial_detail.png" alt="都市銀行、ゆうちょ銀行、ネット銀行、地方銀行、ろうきん、信金"></div>
+    <div class="close">
+      <button data-remodal-action="cancel" class="remodal-cancel bw" href="#"> <span class="TB_closeMinus"></span> <span>閉じる</span></button>
+    </div>
+  </div>
+</section>
+<!-- #section07 END -->

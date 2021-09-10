@@ -1,0 +1,1979 @@
+@charset "UTF-8";
+/*///////////////////////////////////////emc////////////////////////////////////////////
+	Site Name  :  DMM FX
+	File Name  :  base.css
+	Created	 :  2010.01.22
+	Up Date	 :  2010.04.30
+	Copyright (C) DMM FX All Rights Reserved.
+//////////////////////////////////////////////////////////////////////////////////////*/
+
+/* Main Frame Layout Style ----------------------------------------*/
+div#Wrapper {
+	margin: 12px 0px 0px 0px;
+	min-width: 962px;
+	width: 100%;
+	width: expression(document.body.clientWidth < 964? "962px" : "auto");
+}
+div#ContentsWrapper {
+	float: right;
+	margin-left: -165px;
+	width: 100%;
+}
+div#ContentsWrapper div#Contents {
+	margin-left: 187px;
+}
+div#Side {
+	float: left;
+	width: 165px;
+}
+/* DMM Footer ----------------------------------------*/
+#DmmFooter {
+	clear: both;
+	margin: 50px -12px 0;
+	overflow: hidden;
+	position: relative;
+}
+#DmmFooter p.anchor {
+	margin: 12px;
+	text-align: right;
+}
+#DmmFooter a.d-txttopback{
+	background: url(../_img/ico_toparrow.gif) no-repeat left center;
+	color: #666;
+	font-size: 11px;
+	padding-left: 12px;
+}
+
+/* DMM Header ----------------------------------------*/
+#DmmHeader {
+	margin: 0;
+	min-width: 960px;
+	text-align: center;
+	width: auto;
+}
+* html #DmmHeader {
+	width: expression(document.documentElement.clientWidth < 945 ? "943px" : "auto");
+}
+*:first-child+html #DmmHeader {
+	width: auto;
+}
+
+/* DmmHeaderNavi新設定----------------------------------------*/
+#DmmHeaderNavi{
+	margin-bottom:12px;
+}
+#DmmHeaderNavi .lnav-secNavi{
+	background: #242424;
+	list-style: none;
+	margin: 0 0 0 0;
+	min-height: 22px;
+	padding: 0 6px;
+	position: relative;
+}
+#DmmHeaderNavi .lnav-secNavi ul{
+	margin: 0 80px 0 0;
+	padding: 0;
+	zoom: 1;
+}
+#DmmHeaderNavi .lnav-secNavi ul li{
+	display: inline;
+	float: left;
+	margin: 0;
+	padding: 0 6px 0 0;
+}
+#DmmHeaderNavi .lnav-secNavi ul li.on a{
+	background-color: #c10000;
+	color: #fff;
+}
+#DmmHeaderNavi .lnav-secNavi ul li a{
+	background: url(../_img/arrow_global.gif) 6px -15px no-repeat;
+	color: #fff;
+	display: block;
+	font-weight: bold;
+	line-height: 1;
+	padding: 5px 9px 5px 17px;
+	text-decoration: none;
+	width: auto;
+	word-break: keep-all;
+}
+#DmmHeaderNavi .lnav-secNavi ul li a:visited{
+	color: #fff;
+}
+#DmmHeaderNavi .lnav-secNavi ul li a:hover{
+	color: #fff;
+	background-color: #c10000;
+}
+#DmmHeaderNavi .lnav-secNavi .sub-Navi{
+	position: absolute;
+	padding: 4px 10px 4px 0;
+	right: 0;
+	top: 0;
+}
+#DmmHeaderNavi .lnav-secNavi .sub-Navi span{
+	display: inline;
+	float: left;
+	line-height: 1.3;
+	margin: 0 0 0 10px;
+	padding: 0 0 0 10px;
+}
+#DmmHeaderNavi .lnav-secNavi .sub-Navi span a{
+	color:#fff;
+	font-size:10px;
+	font-weight:bold;
+	text-decoration:none;
+}
+.clear{
+	clear: both;
+}
+.group:after{
+	clear: both;
+	content:".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+.group{
+	zoom: 1;
+}
+#DmmHeaderNavi .hd-srchNavi {
+	border-bottom: 1px #d0d0d0 solid;
+	background-color: #fcfcfc;
+	border-left: 1px #d2d2d2 solid;
+	border-right: 1px #d2d2d2 solid;
+	color: #0080c0;
+	position: relative;
+}
+#DmmHeaderNavi .hd-srchNavi .hd-srchNavi-inner {
+	height: 25px;
+	margin: 0 auto;
+	width: 405px;
+}
+#DmmHeaderNavi .hd-srchNavi #cse-searchNavi-box {
+	float: left;
+	width: 405px;
+}
+#DmmHeaderNavi .hd-srchNavi #cse-searchNavi-box input.inputboxNavi {
+	color: #aaa;
+	font-size: 12px;
+	height: 16px;
+	margin: 2px;
+	padding-top: 0;
+	padding-bottom: 0;
+	width: 325px;
+}
+/* DMM設定 */
+#DmmHeader a {
+	white-space: nowrap;
+}
+#DmmHeader li {
+	list-style: none;
+}
+#DmmHeader li, #DmmHeader p {
+	margin:0; padding:0;
+}
+#DmmHeader .lnav-sec {
+	font-weight: bold;
+	background: #016934;
+	overflow: hidden;
+}
+#DmmHeader .lnav-sec ul {
+	margin: 0 auto;
+	padding: 3px 0 0;
+	text-align: center;
+}
+body:first-of-type #DmmHeader .lnav-sec ul {
+	letter-spacing: -1px;
+}
+#DmmHeader .lnav-sec ul li {
+	height: 1.75em;
+	display: inline-block;
+}
+#DmmHeader .lnav-sec ul li {
+	/display:inline;
+	/zoom: 1;
+}/* IE6-7 Hack : display:inline-block用 */
+#DmmHeader .lnav-sec ul li.on {
+	background: #e8f3ec url(../_img/bg_lnav_fx_on.gif) no-repeat left top;
+}
+#DmmHeader .lnav-sec ul li a {
+	display: inline-block;
+	line-height: 21px;
+	margin: 0 1em;
+}
+#DmmHeader .lnav-sec ul li.on a {
+	margin: 0;
+	padding: 0 1em;
+	background: url(../_img/bg_lnav_fx_on.gif) no-repeat right -35px;
+}
+#DmmHeader .lnav-sec ul li img {
+	margin: 0 -0.5em 0 0.2em;
+}
+#DmmHeader .lnav-sec ul li a {
+	color: #fff; text-decoration: none;
+}
+#DmmHeader .lnav-sec ul li a:hover {
+	color: #ddd;
+}
+#DmmHeader .lnav-sec ul li.on a {
+	color: #333;
+}
+#DmmHeader .pr-sec {
+	background: #e8f3ec;
+	border-left: 1px #d2d2d2 solid;
+	border-right: 1px #d2d2d2 solid;
+	clear: both;
+	color: #636881;
+	font-size: 14px;
+	line-height: 1.2em;
+}
+#DmmHeader .pr-sec .pr-sec-inner {
+	font-weight: bold;
+	margin: 0;
+	padding: 4px 0 3px;
+	text-align: center;
+}
+#DmmHeader .pr-sec .pr-sec-txt {
+	display: inline;
+	margin: 0;
+}
+#DmmHeader .pr-sec .pr-sec-inner img {
+	vertical-align: -0.2em;
+}
+#DmmHeader .hd-srch {
+	background-color: #fcfcfc;
+	color: #0080c0;
+	border-left: 1px #d2d2d2 solid;
+	border-right: 1px #d2d2d2 solid;
+	border-bottom: 1px #d0d0d0 solid;
+	position: relative;
+}
+#DmmHeader .hd-srch .hd-srch-inner {
+	height: 25px;
+	margin: 0 auto;
+	width: 580px;
+}
+/* カスタムサーチエンジン */
+#DmmHeader .hd-srch #cse-search-box {
+	float: left;
+	width: 405px;
+}
+#DmmHeader .hd-srch #cse-search-box input.inputbox {
+	color: #aaa;
+	font-size: 12px;
+	height: 16px;
+	margin: 2px;
+	padding-top: 0;
+	padding-bottom: 0;
+	width: 325px;
+}
+/* FontSwitch */
+#DmmHeader .hd-srch ul#FontSwitch {
+	background: url(../_img/font_switch.png) no-repeat left;
+	float: right;
+	height: 23px;
+	padding-top: 1px;
+	padding-left: 80px;
+	margin: 0;
+	width: 82px;
+}
+#DmmHeader .hd-srch ul#FontSwitch li {
+	display: inline;
+	float: left;
+	height: 23px;
+	margin: 0 2px;
+	width: 23px;
+}
+#DmmHeader .hd-srch ul#FontSwitch li a {
+	background: url(../_img/font_switch_btn.png) no-repeat;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	padding-top: 23px;
+}
+#DmmHeader .hd-srch ul#FontSwitch li.FontSmall a {
+	background-position: 0 -23px;
+}
+#DmmHeader .hd-srch ul#FontSwitch li.FontMiddle a {
+	background-position: -23px 0;
+}
+#DmmHeader .hd-srch ul#FontSwitch li.FontLarge a {
+	background-position: -46px 0;
+}
+/* hover */
+#DmmHeader .hd-srch ul#FontSwitch li.FontSmall a:hover {
+	background-position: 0 -23px;
+}
+#DmmHeader .hd-srch ul#FontSwitch li.FontMiddle a:hover {
+	background-position: -23px -23px;
+}
+#DmmHeader .hd-srch ul#FontSwitch li.FontLarge a:hover {
+	background-position: -46px -23px;
+}
+
+/* Common Style ----------------------------------------*/
+/* Reset */
+iframe {
+	border: none;
+}
+/* レイアウト */
+.Hidden {
+	display: none;
+}
+.TxtLeft {
+	text-align: left;
+}
+.TxtRight {
+	text-align: right;
+}
+.TxtCenter {
+	text-align: center;
+}
+.PicLeft {
+	float: left;
+	display: inline;
+	margin: 0 20px 20px 0;
+}
+.PicRight {
+	float: right;
+	display: inline;
+	margin: 0 0 20px 20px;
+}
+.Clear {
+	clear: both;
+}
+
+/* 文字装飾 */
+.TxtMini {
+	font-size: 92%;
+}
+.TxtMini2 {
+	font-size: 83%;
+}
+.Bold {
+	font-weight: bold;
+}
+.Red {
+	color: #c00000;
+}
+.RedBold {
+	color: #c00000;
+	font-weight: bold;
+}
+.RedMini {
+	color: #ff0000;
+	font-size: 92%;
+}
+.Marker {
+	background:#e4ff00;
+}
+.Blue {
+	color: #0080C0;
+}
+.BlueBold {
+	color: #0080C0;
+	font-weight: bold;
+}
+.BlueMini {
+	color: #0080C0;
+	font-size: 92%;
+}
+/* Common Style > Table Style ----------------------------------------*/
+/* マーケット */
+table.Market th {
+	background: #eef8da;
+	border: solid 1px #bbb;
+	padding: 0.8em 1em;
+	white-space: nowrap;
+}
+table.Market td {
+	border: solid 1px #bbb;
+	padding: 0.5em 1em;
+}
+
+/* Common Style > Category Link Style ----------------------------------------*/
+/* リンクリスト */
+table.PageLink {
+	background: #f5f5f5;
+	border: solid 1px #dfdfdf;
+	border-collapse: separate;
+	margin: 0 auto 12px;
+	width: 100%;
+}
+table.PageLink th {
+	border: 0;
+	font-size: 125%;
+	font-weight: bold;
+	line-height: 30px;
+	margin: 1em;
+	padding: 0 1em;
+	text-align: left;
+	width: 8em;
+	white-space: nowrap;
+}
+table.PageLink th p {
+	margin: 0;
+}
+table.PageLink th p img {
+	margin: 0 5px 0 0;
+	vertical-align: middle;
+}
+table.PageLink th p a {
+	color: inherit;
+	text-decoration: none;
+}
+table.PageLink th p a:hover {
+	text-decoration: underline;
+}
+table.PageLink td {
+	border: 0;
+	padding: 0;
+}
+table.PageLink td ul {
+	background: #fff;
+	margin: 10px;
+	padding: 10px;
+}
+table.PageLink td ul li {
+	display: inline;
+	float: left;
+	list-style: none;
+	line-height: 2;
+	margin: 0 14px 0;
+	width: 16em;
+}
+table.PageLink td ul li a,
+table.PageLink td ul li span.OnStatus {
+	background: url(../_img/_sec/page_nav.png) 0 -28px no-repeat;
+	padding:0 0 0 15px;
+}
+
+/* リンクリスト */
+.CateLink {
+	margin: 0 0 12px;
+}
+.CateLink dt {
+	font-size: 125%;
+	font-weight: bold;
+	line-height: 29px;
+	margin: 0 0 5px;
+}
+.CateLink dt img {
+	margin: 0 5px 0 0;
+	vertical-align: middle;
+}
+/* メニュー */
+.CateLink ul {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.CateLink ul li {
+	float: left;
+	height: 36px;
+	letter-spacing: 0.2em;
+	list-style: none;
+	margin: 0 4px 3px 0;
+	min-width: 150px;
+	text-align: center;
+	width: auto !important;
+}
+.CateLink ul li a {
+	background: url(../_img/navi_bg.png) top repeat-x;
+	border: solid 1px #e9e9e9;
+	display: block;
+	height: 29px;
+	line-height: 29px;
+	padding: 1px 15px;
+	text-decoration: none;
+}
+.CateLink ul li a:hover {
+	border: solid 2px #c1c1c1;
+	height: 29px;
+	padding: 0 14px;
+}
+.CateLink ul li.On {
+	background: url(../_img/navi_bg_check.png) top center;
+}
+.CateLink ul li.On a:hover,
+.CateLink ul li.On a {
+	background: none;
+	border: none;
+	color: #fff;
+	cursor: default;
+	padding: 1px 15px;
+}
+/* ページング --------------------------------------------------------*/
+
+div.PagerNav {
+	height:23px;
+	margin: 10px 0;
+	position: relative;
+}
+p.PagerPrev {
+	height: 23px;
+	left: 0;
+	text-align: left;
+	top: 0;
+	margin: 0;
+	position: absolute;
+}
+p.PagerPrev a {
+	background: url(../_img/btn_nextprev.png) right 0 no-repeat;
+	display: inline-block;
+	height: 17px;
+	line-height: 17px;
+	padding: 3px 10px 3px 17px;
+	text-decoration: none;
+}
+p.PagerPrev a span {
+	background: url(../_img/btn_nextprev.png) left 0 no-repeat;
+	height: 0;
+	left: 0;
+	margin: 0;
+	overflow: hidden;
+	padding: 20px 0 0 0;
+	position: absolute;
+	top:0; 
+	width: 15px;
+}
+
+p.PagerNext {
+	height: 23px;
+	margin: 0;
+	right:0;
+	text-align: right;
+	top:0; 
+	position: absolute;
+}
+p.PagerNext a {
+	background: url(../_img/btn_nextprev.png) left -23px no-repeat;
+	display: inline-block;
+	height: 17px;
+	line-height: 17px;
+	padding: 3px 17px 3px 10px;
+	text-decoration: none;
+}
+p.PagerNext a span {
+	background: url(../_img/btn_nextprev.png) right -23px no-repeat;
+	height: 0;
+	margin: 0;
+	overflow: hidden;
+	padding: 23px 0 0 0;
+	position: absolute;
+	right: -1px;
+	top:0; 
+	width: 15px;
+}
+
+
+/* Common Style > Button Style ----------------------------------------*/
+/* GetAdbeAIRボタン */
+a.BtnGetAir{
+	background: url(../_img/btn_getair.png) left top no-repeat;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	padding-top: 41px;
+	width: 160px;
+}
+a.BtnGetAir:hover {
+	background-position: left -41px;
+}
+/* インストール方法ボタン */
+a.BtnHowtoInstall {
+	background: url(../_img/btn_howtoinstall.png) left top no-repeat;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	padding-top: 28px;
+	width: 185px;
+}
+a.BtnHowtoInstall:hover {
+	background-position: left -28px;
+}
+/* PDFマニュアルボタン */
+a.BtnManualPdfBig {
+	background: url(../_img/btn_download_manual.png) left top no-repeat;
+	display: block;
+	height: 0;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-top: 42px;
+	width: 320px;
+}
+a.BtnManualPdfBig:hover {
+	background-position: left -42px;
+}
+a.BtnManualPdf {
+	background: url(../_img/btn_manual_pdf.png) left top no-repeat;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	padding-top: 28px;
+	width: 185px;
+}
+a.BtnManualPdf:hover {
+	background-position: left -28px;
+}
+a.DownloadPdf {
+	background: url(../_img/icon_pdf.png) 0 0px no-repeat;
+	padding: 1px 0 2px 20px;
+}
+ 
+ /* 簡単マニュアルボタン */
+a.BtnManualKantan{
+	background: url(../_img/btn_manual_kantansl.png) left top no-repeat;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	padding-top: 28px;
+	width: 185px;
+}
+a.BtnManualKantan:hover {
+	background-position: left -28px;
+}
+/* PopUpマニュアルボタン */
+a.BtnManualPopup{
+	background: url(../_img/btn_manual_popmanual.png) left top no-repeat;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	padding-top: 28px;
+	width: 185px;
+}
+a.BtnManualPopup:hover {
+	background-position: left -28px;
+}
+/* 口座開設ボタン */
+div#Contents p.EntryBtn {
+	margin: 20px auto;
+	width: 300px;
+}
+div#Contents p.EntryBtn a {
+	background: url(../_img/btn_entry.png) left top no-repeat;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	padding-top: 80px;
+	width: 300px;
+}
+div#Contents p.EntryBtn a:hover {
+	background-position: left -80px;
+}
+
+/* Common Style > Common(CateSec) ----------------------------------------*/
+/* hr */
+hr {
+	border: 0;
+	border-bottom: 1px solid #0b6022;
+	color: #7dbd00;
+}
+/* Table */
+table.Default th {
+	background-color: #ececec;
+	border: solid 1px #bbb;
+	padding: 0.5em 1em;
+	white-space: nowrap;
+}
+table.Default td {
+	border: solid 1px #bbb;
+	padding: 0.5em 1em;
+}
+table.Default td.Odd {
+	background-color: #ececec;
+	white-space: nowrap;
+}
+/* (グラデーション付き .Defaultと共に設定) */
+table.DefaultHor th {
+	background: url(../_img/table_th.png) left bottom repeat-x #aaa;
+	color: #fff;
+}
+table.DefaultHor th.DefaultHorClear {
+	background-color: #aaa;
+	background-image: none;
+}
+
+/* パンくず */
+p#LocationBar {
+	float: left;
+	height: 20px;
+	line-height: 17px;
+	margin: 0 0 10px;
+	width: 58%;
+}
+p#LocationBar img {
+	vertical-align: middle;
+}
+p#LocationBar .LocationCate {
+	background: url(../_img/location_sec.png) no-repeat;
+	display: inline-block;
+	height: 0px;
+	overflow: hidden;
+	padding-top: 17px;
+	vertical-align: middle;
+	width: 44px;
+}
+p#LocationBar .LocationCate {
+	/display:inline;
+	/zoom: 1;
+}/* IE6-7 Hack : display:inline-block用 */
+
+/* 見出し（大） */
+.HeadingLarge {
+	background: url(../_img/_sec/heading_large_bg.png) right top repeat-x;
+	color: #393939;
+	font-size: 28px;
+	margin: 0 -6px 12px;
+}
+.HeadingLarge span.L {
+	background: url(../_img/_sec/heading_large_left.png) left top no-repeat;
+	display: block;
+}
+.HeadingLarge span.R {
+	background: url(../_img/_sec/heading_large_right.png) right top no-repeat;
+	display: block;
+	line-height: 30px;
+	padding: 30px;
+}
+/* 見出し（大/細） */
+.HeadingThin {
+	color: #393939;
+	margin: 0;
+}
+.HeadingThin span {
+	color: #404040;
+	display: block;
+	padding: 3px 0 5px;
+	text-align: center;
+}
+/* 見出し（中） */
+.HeadingMiddle {
+	background: url(../_img/_sec/heading_middle_bg.png) left top repeat-x;
+	color: #fff;
+	font-size: 16px;
+	margin: 16px 0;
+}
+.HeadingMiddle span.L {
+	background: url(../_img/_sec/heading_middle_left.png) left top no-repeat;
+	display: block;
+}
+.HeadingMiddle span.R {
+	background: url(../_img/_sec/heading_middle_right.png) right top no-repeat;
+	display: block;
+	line-height: 36px;
+	padding: 0px 15px;
+}
+/* 見出し（小） */
+.HeadingSmall {
+	background: url(../_img/_sec/heading_small_bg.png) left top repeat-x;
+	color: #393939;
+	font-size: 14px;
+	margin: 24px 0 12px;
+}
+.HeadingSmall span {
+	background: url(../_img/_sec/heading_small_left.png) left top no-repeat;
+	display: block;
+	line-height: 16px;
+	padding: 11px 24px 15px;
+}
+/* 見出し（極小） */
+.HeadingXSmall {
+	background: url(../_img/_sec/heading_mini.png) 0 2px no-repeat;
+	color: #00742e;
+	font-size: 14px;
+	padding-left: 20px;
+}
+/*  ページトップボタン */
+p.PageTop {
+	margin: 15px 10px 10px;
+	text-align: right;
+}
+p.PageTop a {
+	padding: 0 0 0 15px;
+	background: url(../_img/_sec/page_nav.png) 0 2px no-repeat;
+}
+/*  ページ内リンク */
+a.Link {
+	padding: 0 0 0 15px;
+	background: url(../_img/_sec/page_nav.png) 0 -28px no-repeat;
+}
+a.LinkDown {
+	padding:0 0 0 15px;
+	background: url(../_img/_sec/page_nav.png) 0 -58px no-repeat;
+}
+/* Common Style > CateFx ----------------------------------------*/
+/* hr */
+div.CateFx hr {
+	border: 0;
+	border-bottom: 1px solid #3b9f00;
+	color: #7dbd00;
+}
+/* パンくず */
+div.CateFx p#LocationBar .LocationCate {
+	background-image: url(../_img/location_fx.png);
+}
+/* 見出し（大） */
+div.CateFx .HeadingLarge {
+	background-image: url(../_img/_fx/heading_large_bg.png);
+}
+div.CateFx .HeadingLarge span.L {
+	background-image: url(../_img/_fx/heading_large_left.png);
+}
+div.CateFx .HeadingLarge span.R {
+	background-image: url(../_img/_fx/heading_large_right.png);
+}
+/* 見出し（中） */
+div.CateFx .HeadingMiddle {
+	background-image: url(../_img/_fx/heading_middle_bg.png);
+}
+div.CateFx .HeadingMiddle span.L {
+	background-image: url(../_img/_fx/heading_middle_left.png);
+}
+div.CateFx .HeadingMiddle span.R {
+	background-image: url(../_img/_fx/heading_middle_right.png);
+}
+/* 見出し（小） */
+div.CateFx .HeadingSmall {
+	background-image: url(../_img/_fx/heading_small_bg.png);
+}
+div.CateFx .HeadingSmall span {
+	background-image: url(../_img/_fx/heading_small_left.png);
+}
+/* 見出し（極小） */
+div.CateFx .HeadingXSmall {
+	background-image: url(../_img/_fx/heading_mini.png);
+	color: #0e8f02;
+}
+/*  ページトップボタン */
+div.CateFx p.PageTop a {
+	background-image: url(../_img/_fx/page_nav.png);
+}
+/*  ページ内リンク */
+div.CateFx a.Link {
+	background-image: url(../_img/_fx/page_nav.png);
+}
+div.CateFx a.LinkDown {
+	background-image: url(../_img/_fx/page_nav.png);
+}
+
+/* Common Style > CateCfd ----------------------------------------*/
+/* hr */
+div.CateCfd hr {
+	border: 0;
+	border-bottom: 1px solid #ef8900;
+	color: #7dbd00;
+}
+/* パンくず */
+div.CateCfd p#LocationBar .LocationCate {
+	background-image: url(../_img/location_cfd.png);
+}
+/* 見出し（大） */
+div.CateCfd .HeadingLarge {
+	background-image: url(../_img/_cfd/heading_large_bg.png);
+}
+div.CateCfd .HeadingLarge span.L {
+	background-image: url(../_img/_cfd/heading_large_left.png);
+}
+div.CateCfd .HeadingLarge span.R {
+	background-image: url(../_img/_cfd/heading_large_right.png);
+}
+/* 見出し（中） */
+div.CateCfd .HeadingMiddle {
+	background-image: url(../_img/_cfd/heading_middle_bg.png);
+}
+div.CateCfd .HeadingMiddle span.L {
+	background-image: url(../_img/_cfd/heading_middle_left.png);
+}
+div.CateCfd .HeadingMiddle span.R {
+	background-image: url(../_img/_cfd/heading_middle_right.png);
+}
+/* 見出し（小） */
+div.CateCfd .HeadingSmall {
+	background-image: url(../_img/_cfd/heading_small_bg.png);
+}
+div.CateCfd .HeadingSmall span {
+	background-image: url(../_img/_cfd/heading_small_left.png);
+}
+/* 見出し（極小） */
+div.CateCfd .HeadingXSmall {
+	background-image: url(../_img/_cfd/heading_mini.png);
+	color: #f57900;
+}
+/*  ページトップボタン */
+div.CateCfd p.PageTop a {
+	background-image: url(../_img/_cfd/page_nav.png);
+}
+/*  ページ内リンク */
+div.CateCfd a.Link {
+	background-image: url(../_img/_cfd/page_nav.png);
+}
+div.CateCfd a.LinkDown {
+	background-image: url(../_img/_cfd/page_nav.png);
+}
+
+/* Side Style ----------------------------------------*/
+div.SideEntry{
+	background: none repeat scroll 0 0 #242424;
+	height: 127px;
+	margin: 0 auto 12px;
+	padding-top: 5px 0;
+	width: 165px;
+}
+/* ようこそ、○○さん */
+div#SideVt p.SideYokoso,
+div#Side p.SideYokoso {
+	background-color: #f2f2f2;
+	color: #000;
+	font-size: 10px;
+	line-height: 19px;
+}
+div#SideVt p.SideYokoso span,
+div#Side p.SideYokoso span {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/* サイドログインボックス */
+/* ログイン前 */
+div#SideLoginBeforeBox {
+	background: #242424;
+	margin: 0 auto;
+	padding: 5px 0;
+	width: 165px;
+}
+p.SideRequest {
+	margin: 0 auto;
+	padding-top: 5px;
+	width: 155px;
+}
+p.SideRequest a {
+	background: url(../_img/btn_seikyu_new.png) repeat scroll 0 0 transparent;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	padding-top: 28px;
+}
+p.SideRequest a:hover {
+	background-position: 0 -28px;
+}
+p.SideOpeningFlow {
+	margin: 0 auto;
+	padding-top: 5px;
+	width: 155px;
+}
+p.SideOpeningFlow a {
+	background: url(../_img/btn_openingflow.png) repeat scroll 0 0 transparent;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	padding-top: 28px;
+}
+p.SideOpeningFlow a:hover {
+	background-position: 0 -28px;
+}
+p.SideEntryBtn {
+	margin: 0 auto;
+	padding-top: 5px;
+	width: 155px;
+}
+p.SideEntryBtn a {
+	background: url(/_img/btn_koza2.png) repeat scroll 0 0 transparent;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	padding-top: 51px;
+}
+p.SideEntryBtn a:hover {
+	background-position: 0 -51px;
+}
+div.SideMembars {
+	background: none repeat scroll 0 0 #f2f2f2;
+	border: 1px solid #c2c2c2;
+	margin: 5px auto 0;
+	padding: 5px;
+	width: 143px;
+}
+div.SideMembars p {
+	margin: 3px;
+}
+div.SideMembars p.SideYokoso {
+	background-color: #fff;
+	color: #000;
+	font-size: 10px;
+	line-height: 19px;
+	padding:0 ;
+}
+div.SideMembars img.mainte{
+	display: block;
+	margin : 5px auto 0;	
+}
+#SideLoginBeforeBox div.SideMembars p.SideLoginBtn {
+	background: url(../_img/side_login.png) repeat scroll 0 0 transparent;
+	margin: 3px auto 0;
+	width: 145px;
+}
+#SideLoginBeforeBox div.SideMembars p.SideLoginBtn a {
+	background: url(../_img/side_login.png) repeat scroll 0 0 transparent;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	padding-top: 40px;
+}
+#SideLoginBeforeBox div.SideMembars p.SideLoginBtn a:hover {
+	background-position: 0 -40px;
+}
+/* 本番環境ログイン後 */
+div#SideLoginAfterBox {
+	background: none repeat scroll 0 0 #242424;
+	margin: 0 auto;
+	padding: 5px 0;
+	width: 165px;
+}
+div#SideLoginAfterBox p.MyPageBtn {
+	background: url(../_img/side_mypage.png) repeat scroll 0 0 transparent;
+	margin: 0 auto;
+	width: 145px;
+}
+div#SideLoginAfterBox p.MyPageBtn a {
+	background: url(../_img/side_mypage.png) repeat scroll 0 0 transparent;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	padding-top: 46px;
+}
+div#SideLoginAfterBox p.MyPageBtn a:hover {
+	background-position: 0 -46px;
+}
+div#SideLoginAfterBox p.SideLogout {
+	background: url(../_img/side_logout.png) repeat scroll 0 0 transparent;
+	margin: 10px auto 0;
+	width: 145px;
+}
+div#SideLoginAfterBox p.SideLogout a {
+	background: url(../_img/side_logout.png) repeat scroll 0 0 transparent;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	padding-top: 24px;
+}
+div#SideLoginAfterBox p.SideLogout a:hover {
+	background-position: 0 -24px;
+}
+p.SideLogout a.VirtualLogout {
+	background: url(../_img/btn_logout_virtual.png) 0 0 no-repeat;
+}
+p.SideLogout a.VirtualLogout:hover {
+	background-position: 0 -30px;
+}
+div#SideVtBox {
+	background: #242424;
+	height:55px;
+	margin: 12px auto 12px;
+	padding: 0 0;
+	width: 165px;
+} 
+
+/* Side マーケット情報 */
+div#SideVtBox  p.SideMarketBtn {
+	background-color:#000;
+	margin: 0px auto;
+	padding-top: 5px;
+	width: 155px;
+}
+div#SideVtBox  p.SideMarketBtn a {
+	background: url(../_img/btn_market.png) 0 0;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	padding-top: 45px;
+}
+div#SideVtBox  p.SideMarketBtn a:hover {
+	background-position: 0 -45px;
+}
+
+/* サイドメニュー ----*/
+/* Btn FX */
+p.SideFxLink {
+	background: url(../_img/sidemenu_fx.png) 0 0;
+	margin: 12px 0;
+	width: 165px;
+}
+p.SideFxLink a {
+	background: url(../_img/sidemenu_fx2.png) 0 0;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	padding-top: 51px;
+}
+p.SideFxLink a:hover {
+	background-position: 0 -51px;
+}
+/* Btn CFD */
+p.SideCfdLink {
+	background: url(../_img/sidemenu_cfd.png) 0 0;
+	margin: 12px 0;
+	width: 165px;
+}
+p.SideCfdLink a {
+	background: url(../_img/sidemenu_cfd2.png) 0 0;
+	background-repeat:no-repeat;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	padding-top: 51px;
+}
+p.SideCfdLink a:hover {
+	background-position: 0 -51px;
+}
+
+/* サイドメニュー > FX ----*/
+/* Title */
+p.SideFxTtl {
+	margin: 12px 0 0;
+	width: 165px;
+}
+p.SideFxTtl a {
+	background: url(../_img/sidemenu_fx2.png) 0 0;
+	background-repeat:no-repeat;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	padding-top: 51px;
+}
+p.SideFxTtl a:hover {
+	background-position: 0 -51px;
+}
+/* Menu */
+div.SideFx {
+	margin: 0 0 12px;
+	padding: 0;
+}
+div.SideFx a {
+	color: #333;
+	display: block;
+	text-decoration: none;
+}
+div.SideFx a:visited {
+	color: #333;
+	text-decoration: none;
+} /* for IE6 */
+div.SideFx dl {
+	background-color: #242424;
+	margin: 0;
+	padding:0 5px 5px;
+}
+div.SideFx dl dt a {
+	background: url(../_img/sidemenu_fx3.png) #fff;
+	line-height: 1.5;
+	padding: 5px 3px 5px 27px;
+}
+div.SideFx dl dt.SideFxSpread a{
+	background-position: 0 -174px;
+}
+div.SideFx dl dt.SideFxAboutfx a{
+	background-position: 0 -224px;
+}
+div.SideFx dl dt.SideFxSpread a:hover{
+	background-position: 0 -374px; color:#fff;
+}
+div.SideFx dl dt.SideFxAboutfx a:hover{
+	background-position: 0 -424px; color:#fff;
+}
+div.SideFx dl dt a.On {
+	color: #fff;
+	background: url(../_img/sidemenu_fx3.png);
+}
+div.SideFx dl dt a.On:visited {
+	color: #fff;
+} /* for IE6 */
+div.SideFx dl dt.SideFxSpread a.On,
+div.SideFx dl dt.SideFxSpread a.On:hover {
+	background-position: 0 -274px;
+}
+div.SideFx dl dt.SideFxAboutfx a.On,
+div.SideFx dl dt.SideFxAboutfx a.On:hover {
+	background-position: 0 -324px;
+}
+div.SideFx dl dd,
+div.SideFx dl dd ul {
+	margin: 0;
+	background: #fff;
+}
+div.SideFx dl dd ul li {
+	list-style: none;
+	margin: 0;
+	border-bottom: 1px dotted #adadad;
+}
+div.SideFx dl dd ul li a {
+	background: url(../_img/sidemenu_l3.gif) no-repeat 0 0 #f2f2f2 ;
+	padding: 5px 3px 5px 20px;
+	zoom: 1;
+}
+div.SideFx dl dd ul li a:hover { 
+	background-color: #c10000; 
+	background-position:0px -28px;
+	color: #fff; 
+}
+div.SideFx dl dd ul li a.On {
+	background: url(../_img/sidemenu_l3.gif) no-repeat -330px 0 #c10000;
+	color: #fff;
+}
+div.SideFx dl dd ul li a.On:visited,
+div.SideFx dl dd ul li a.On:hover {
+	color: #fff;
+	background-color: #c10000;
+} /* for IE6 */
+div.SideFx dl dd ul li ul li {
+	border-top: 1px dotted #adadad;
+	border-bottom: none;
+}
+div.SideFx dl dd ul li ul li a {
+	background: url(../_img/sidemenu_l3.gif) no-repeat 10px 0 #f2f2f2 ;
+	padding: 5px 3px 5px 30px;
+}
+div.SideFx dl dd ul li ul li a:hover{
+	background-position:10px -28px;
+}
+div.SideFx dl dd ul li ul li a.On {
+	background: url(../_img/sidemenu_l2.gif) no-repeat -320px 0 #1ca152 ;
+}
+div.SideFx dl dd ul li.last {
+	border: 0;
+}
+/* サイドメニュー > CFD ----*/
+/* Title */
+p.SideCfdTtl {
+	margin: 12px 0 0;
+	width: 165px;
+}
+p.SideCfdTtl a {
+	background: url(../_img/sidemenu_cfd2.png) 0 0;
+	background-repeat: no-repeat;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	padding-top: 51px;
+}
+p.SideCfdTtl a:hover {
+	background-position: 0 -51px;
+}
+/* Menu */
+div.SideCfd {
+	margin: 0 0 12px;
+}
+div.SideCfd a {
+	display: block;
+	color: #333;
+	text-decoration: none;
+}
+div.SideCfd a:visited {
+	color: #333;
+	text-decoration: none;
+} /* for IE6 */
+div.SideCfd dl {
+	background-color:#242424;
+	margin: 0;
+	padding:0 5px 5px;
+}
+div.SideCfd dl dt a {
+	background: url(../_img/sidemenu_cfd3.png) #fff;
+	line-height: 1.5;
+	padding: 5px 3px 5px 27px;
+}
+div.SideCfd dl dt.SideCfdSpread a {
+	background-position: 0 -174px;
+}
+div.SideCfd dl dt.SideCfdAboutcfd a {
+	background-position: 0 -224px;
+}
+div.SideCfd dl dt.SideCfdSpread a:hover {
+	background-position: 0 -374px;
+	color:#fff;
+}
+div.SideCfd dl dt.SideCfdAboutcfd a:hover {
+	background-position: 0 -424px;
+	color:#fff;
+}
+div.SideCfd dl dt a.On {
+	background: url(../_img/sidemenu_cfd3.png) #ffac1c;
+	color: #fff;
+}
+div.SideCfd dl dt a.On:visited,
+div.SideCfd dl dt a.On:hover {
+	color: #fff;
+	background-color: #c10000;
+} /* for IE6 */
+div.SideCfd dl dt.SideCfdSpread a.On,
+div.SideCfd dl dt.SideCfdSpread a.On:hover {
+	background-position: 0 -274px;
+}
+div.SideCfd dl dt.SideCfdAboutcfd a.On,
+div.SideCfd dl dt.SideCfdAboutcfd a.On:hover {
+	background-position: 0 -324px;
+}
+div.SideCfd dl dd,
+div.SideCfd dl dd ul {
+	margin:0;
+	background:#fff;
+}
+div.SideCfd dl dd ul li {
+	border-bottom: 1px dotted #adadad;
+	list-style: none;
+	margin: 0;
+}
+div.SideCfd dl dd ul li a {
+	background: url(../_img/sidemenu_l3.gif) no-repeat -165px 0 #f2f2f2 ;
+	padding: 5px 3px 5px 20px;
+	zoom: 1;
+}
+div.SideCfd dl dd ul li a:hover { 
+	background-color: #c10000; 
+	background-position:0 -28px;
+	color: #fff; 
+}
+div.SideCfd dl dd ul li a.On {
+	background: url(../_img/sidemenu_l2.gif) no-repeat -330px 0 #ffac1c;
+	color: #fff;
+}
+div.SideCfd dl dd ul li a.On:visited,
+div.SideCfd dl dd ul li a.On:hover {
+	background-color: #c10000;
+	color: #fff;
+} /* for IE6 */
+div.SideCfd dl dd ul li ul li {
+	border-top: 1px dotted #adadad;
+	border-bottom: 0;
+}
+div.SideCfd dl dd ul li ul li a {
+	background: url(../_img/sidemenu_l3.gif) no-repeat -155px 0 #f2f2f2 ;
+	padding: 5px 3px 5px 30px;
+}
+div.SideCfd dl dd ul li ul li a:hover{
+	background-position:10px -28px;
+}
+div.SideCfd dl dd ul li ul li a.On {
+	background: url(../_img/sidemenu_l2.gif) no-repeat -320px 0 #ef8900 ;
+}
+div.SideCfd dl dd ul li.last {
+	border: 0;
+}
+/* サイドメニュー > 共通 ----*/
+/* Menu */
+div.SideInfo {
+	margin: 12px 0;
+}
+div.SideInfo a {
+	display: block;
+	color: #333;
+	text-decoration: none;
+}
+div.SideInfo a:visited {
+	color: #333;
+	text-decoration: none;
+} /* for IE6 */
+div.SideInfo a:hover { 
+	background-color: #c10000; 
+	background-position:5px -28px;
+	color:#fff;
+}
+div.SideInfo dl {
+	background-color:#242424;
+	margin: 0;
+	padding:5px;
+}
+div.SideInfo dl dt {
+	border-bottom: 1px solid #242424;
+}
+div.SideInfo dl dt.last {
+	border-bottom: 0;
+}
+div.SideInfo dl dt a {
+	background: url(/_img/sidemenu_info2.png) no-repeat #f2f2f2;
+	line-height: 1.5;
+	padding: 5px 3px 5px 25px;
+}
+div.SideInfo dl.Off dl,
+div.SideInfo dl dl{
+	padding: 0;
+}
+div.SideInfo dl dt.SideInfoSearch a{
+	height: 25px;
+	line-height: 25px;
+	padding: 0;
+	text-indent: 25px;
+	width: 155px;
+}
+
+div.SideInfo dl dt.SideInfoSearch a {
+	background-position: 0 0;
+}
+div.SideInfo dl dt.SideInfoCamp a {
+	background-position: 0 -50px;
+}
+div.SideInfo dl dt.SideInfoMarket a {
+	background-position: 0 -100px;
+}
+div.SideInfo dl dt.SideInfoSupport a {
+	background-position: 0 -150px;
+}
+div.SideInfo dl dt.SideInfoPress a {
+	background-position: 0 -200px;
+}
+div.SideInfo dl dt.SideInfoCompany a {
+	background-position: 0 -250px;
+}
+div.SideInfo dl dt.SideInfoRisk a {
+	background-position: 0 -300px;
+}
+div.SideInfo dl dt.SideInfoSitemap a {
+	background-position: 0 -350px;
+}
+div.SideInfo dl dt.SideInfoSupportCheck a  {
+	background-position: 0 -1150px;
+}
+div.SideInfo dl dt.SideInfoSession a {
+	background-position: 0 -1250px;
+}
+div.SideInfo dl dt.SideInfoSearch a:hover {
+	background-position: 0 -401px;
+	color: #fff;
+}
+div.SideInfo dl dt.SideInfoCamp a:hover {
+	background-position: 0 -450px;
+	color: #fff;
+}
+div.SideInfo dl dt.SideInfoSession a:hover {
+	background-position: 0 -1300px;
+	color: #fff;
+}
+div.SideInfo dl dt.SideInfoMarket a:hover {
+	background-position: 0 -500px;
+	color: #fff;
+}
+div.SideInfo dl dt.SideInfoSupport a:hover {
+	background-position: 0 -550px;
+	color: #fff;
+}
+div.SideInfo dl dt.SideInfoPress a:hover {
+	background-position: 0 -600px;
+	color: #fff;
+}
+div.SideInfo dl dt.SideInfoCompany a:hover {
+	background-position: 0 -650px;
+	color: #fff;
+}
+div.SideInfo dl dt.SideInfoRisk a:hover {
+	background-position: 0 -700px; color: #fff;
+}
+div.SideInfo dl dt.SideInfoSitemap a:hover {
+	background-position: 0 -750px; color: #fff;
+}
+div.SideInfo dl dt.SideInfoSupportCheck a:hover {
+	background-position: 0 -1200px; color: #fff;
+}
+div.SideInfo dl dt a.On {
+	background: url(../_img/sidemenu_info2.png) no-repeat #1ca152;
+	color: #fff;
+	text-decoration: none;
+}
+div.SideInfo dl dt a.On:visited,
+div.SideInfo dl dt a.On:hover {
+	color: #fff; text-decoration: none; background-color: #c10000;
+} /* for IE6 */
+div.SideInfo dl dt.SideInfoSearch a.On,
+div.SideInfo dl dt.SideInfoSearch a.On:hover {
+	background-position: 0 -400px;
+	background-color: #c10000;
+}
+div.SideInfo dl dt.SideInfoCamp a.On,
+div.SideInfo dl dt.SideInfoCamp a.On:hover {
+	background-position: 0 -450px;
+	background-color: #c10000;
+}
+div.SideInfo dl dt.SideInfoSession a.On,
+div.SideInfo dl dt.SideInfoSession a.On:hover {
+	background-position: 0 -1300px;
+	background-color: #c10000;
+}
+div.SideInfo dl dt.SideInfoMarket a.On,
+div.SideInfo dl dt.SideInfoMarket a.On:hover {
+	background-position: 0 -500px;
+	background-color: #c10000;
+}
+div.SideInfo dl dt.SideInfoSupport a.On,
+div.SideInfo dl dt.SideInfoSupport a.On:hover {
+	background-position: 0 -550px;
+	background-color: #c10000;
+}
+div.SideInfo dl dt.SideInfoPress a.On,
+div.SideInfo dl dt.SideInfoPress a.On:hover {
+	background-position: 0 -600px;
+	background-color: #c10000;
+}
+div.SideInfo dl dt.SideInfoCompany a.On,
+div.SideInfo dl dt.SideInfoCompany a.On:hover {
+	background-position: 0 -650px;
+	background-color: #c10000;
+}
+div.SideInfo dl dt.SideInfoRisk a.On,
+div.SideInfo dl dt.SideInfoRisk a.On:hover {
+	background-position: 0 -700px;
+	background-color: #c10000;
+}
+div.SideInfo dl dt.SideInfoSitemap a.On,
+div.SideInfo dl dt.SideInfoSitemap a.On:hover {
+	background-position: 0 -750px;
+	background-color: #c10000;
+}
+div.SideInfo dl dt.SideInfoSupportCheck a.On,
+div.SideInfo dl dt.SideInfoSupportCheck a.On:hover {
+	background-position: 0 -1200px;
+	background-color: #c10000;
+}
+
+div.SideInfo dl dd,
+div.SideInfo dl dd ul {
+	background: #fff;
+	margin: 0;
+}
+div.SideInfo dl dd ul li {
+	border-bottom: 1px solid #000;
+	list-style: none;
+	margin: 0;
+}
+div.SideInfo dl dd ul li a {
+	background: url(../_img/sidemenu_l3.gif) no-repeat 5px 0 #f2f2f2 ;
+	padding: 5px 3px 5px 25px;
+}
+div.SideInfo dl dd ul li a.On {
+	background: url(../_img/sidemenu_l2.gif) no-repeat -325px 0 #c10000;
+	color: #fff;
+	text-decoration: none;
+}
+div.SideInfo dl dd ul li a.On:visited,
+div.SideInfo dl dd ul li a.On:hover {
+	background-color: #c10000;
+	color: #fff;
+	text-decoration: none;
+} /* for IE6 */
+
+/*サイト内検索*/
+#sitesearch{
+	margin: 0;
+	padding: 0;
+}
+.accordion div{
+	height:57px;
+	width:246px;
+}
+.accordion span input{
+	background-color: #666;
+	border: solid 1px #fff;
+	color: #fff;
+	display: block;
+	font-size:17px;
+	height: 23px;
+	margin: 3px 0;
+	padding: 2px 5px;
+}
+.accordion div input.Button{
+	background: url(/_img/searchIcon.png) no-repeat;
+	border: none;
+	cursor: pointer;
+	height: 23px;
+	margin-left: 127px;
+	width: 27px;
+}
+/* サイト内検索 検索結果ページ */
+div.SupportIndex #yjserp {
+	height: 1300px;
+	margin: 0;
+	min-width: 760px;
+	overflow: hidden;
+}
+div.SupportIndex #yjserp iframe#yjserpif {
+	display: block;
+	height: 100%;
+	margin: 0;
+	overflow: hidden;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	padding: 0;
+}
+/* サイドメニュー > 非表示処理 ----*/
+div#Side dl dd ul.Off,
+div#Side dl.Off dd ul {
+	display: none;
+}
+/* サイドメニュー > その他 ----*/
+/* DMMモバイル */
+div.SideMobile {
+	background-color: #f2f2f2;
+	border: 5px solid #242424;
+	margin: 12px 0;
+	padding: 5px;
+}
+div.SideMobile p {
+	margin: 0 0 5px;
+}
+div.SideMobile p.SideMobileTtl {
+	background: #242424;
+	color: #fff;
+	font-weight: bold;
+	margin: -6px -6px 5px;
+	padding: 3px 0;
+	text-align: center;
+}
+div.SideMobile p.SideMobileSendUrl {
+	border-top: 1px dotted #999;
+	padding: 5px;
+}
+div.SideMobile p.SideMobileSendUrl span {
+	color: #006127;
+	font-weight: bold;
+}
+div.SideMobile p.SideMobileSendUrl input.SendAddr {
+	color: #666;
+	padding: 0; margin: 3px 3px 3px 0;
+	width: 90px;
+}
+div.SideMobile a.Link {
+	background: url(../_img/_sec/page_nav2.png) 0 -28px no-repeat;
+	color: #00742e;
+	padding:0 0 0 15px;
+}
+/* サイドバナー */
+div.SideBanner p {
+	margin: 12px 0 12px;
+}
+div.SideBanner p a:hover{
+	filter: alpha(opacity=90);
+	opacity:0.90;
+}
+/* Footer Style ----------------------------------------*/
+/* 提携金融機関 */
+p#BankListTtl {
+	border-top: solid 2px #005847;
+	color: #555;
+	font-weight: bold;
+	line-height: 2;
+	margin: 0;
+	padding: 0 10px;
+}
+div#BankList {
+	border: solid 1px #f2f2f2;
+	padding: 12px;
+}
+div#BankList a {
+	background: url(../_img/footer_bank.png) center 0 no-repeat;
+	display: block;
+	height: 0;
+	margin: auto;
+	overflow: hidden;
+	padding-top: 30px;
+	width: 860px;
+}
+/* No.1用フッター文言 */
+p#No1Footer {
+	background: #feebe7;
+	font-size: 13px;
+	line-height: 1.4em;
+	margin: 10px 0 10px;
+	padding: 15px;
+}
+#No1Footer span {
+	color: #e41f00;
+	font-weight: bold;
+}
+/* リスク文言 */
+#RiskText {
+	background: #f2f2f2;
+	font-size: 13px;
+	line-height: 1.4em;
+	margin: 10px 0 10px;
+	padding: 15px;
+}
+#RiskText span.BottomLinks {
+	display: block;
+	margin-top: 1em;
+}
+/* FooterBnr */
+#FooterBnrs {
+	margin: 10px auto;
+	overflow: hidden;
+	width: 914px;
+}
+#FooterLinks {
+	float: left;
+	margin: 0 auto;
+	width: 710px;
+}
+#FooterLinks li {
+	background-color: #f5f5f5;
+	display: block;
+	float: left;
+	height: 50px;
+	list-style: outside none none;
+	margin: 1px;
+	width: 175px;
+}
+#FooterLinks li a{
+	display: block;
+  	height: 50px;
+  	width: 175px;
+}
+#FooterLinks a:hover img{
+	opacity: 0.8;
+}
+#Norton {
+	float: left;
+	height: 67px;
+	margin: 20px 4px 0;
+	width: 110px;
+}
+#Norton table {
+	margin: 0 auto;
+	width: 110px;
+}
+#Norton table td{
+	border:none;
+}
+#Pmark {
+	float: left;
+	height: 80px;
+	margin: 15px 0 0;
+	width: 80px;
+}
+#Pmark p,
+#Pmark p a {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+#Pmark p a:hover img{
+	opacity: 0.8;
+}
+#Pmark p img {
+	display: block;
+	height: 80px;
+	margin: 0;
+	overflow: hidden;
+	width: 80px;
+}
+/* include headerh1*/
+div#HeaderTxt{
+	position: relative;
+	margin-bottom: 15px;
+}
+div#HeaderTxt h1 {
+	font-weight: normal;
+	letter-spacing:-0.09em;
+	margin: 0;
+}
+.d-scarehead {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+.d-scarehead {
+	display: table;
+	border-spacing: 6px;
+	border-collapse: separate;
+	border-top: 1px #bbb solid;
+	border-bottom: 1px #bbb solid;
+	font-size: 14px;
+	font-weight: normal;
+	margin-bottom: 16px;
+	line-height: 20px;
+	width: 100%;
+}
+.d-scarehead span.d-txten {
+	background: url(../_img/bg_scarehead.png) repeat-y scroll 100% 0;
+	font-family: "Arial Black";
+	font-size: 10px;
+	display: table-cell;
+	margin: 0;
+	padding: 0 18px 0 6px;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	width: 1%;
+}
+#d-ie7 .d-scarehead {
+	padding: 6px;
+	zoom: 1;
+	width: auto;
+}
+#d-ie7 .d-scarehead span.d-txten {
+	height:1%;
+	line-height: 20px;
+	margin-right: 6px;
+	padding: 3px 18px 3px 6px;
+	width: auto;
+	zoom: 1;
+}
+
+/*facebook likebox*/
+.FaceBook{
+	border:#000 1px solid;
+	margin-bottom:10px;
+	padding:0;
+}
+.FaceBook dl{
+	padding:0;
+	margin:0;
+}
+.FaceBook dt{
+	padding:5px 0;
+	text-indent:10px;
+}
+.FaceBook dt{
+	background: #000;
+	color: #fff;
+}
+/*facebook likebox*/
+div.d-txten2 {
+	display: table-cell;
+	margin: 0;
+	padding: 0 18px 0 6px;
+	vertical-align: middle;
+	width: 4%;
+	white-space: nowrap;
+}
+#d-ie7 div.d-txten2 {
+	height:1%;
+	line-height: 20px;
+	margin-right: 6px;
+	padding: 3px 18px 3px 6px;
+	width: auto;
+	zoom: 1;
+}
+/*ソーシャルプラグイン//
+*****************************************/
+#S_Plugin {
+	float: right;
+	height: 24px;
+	text-align: right;
+}
+#S_Plugin.SpTopOnly{/*Top Only Class*/
+	position: absolute;
+	right: 0;
+	top: 7px;
+}
+#LikePluginPagelet{
+	right: 250px;
+}
+#twitter-widget-0{
+	width: 75px!important;
+}   
+#___plusone_0{
+	vertical-align: top!important;
+}
+/*//ソーシャルプラグイン
+*****************************************/
+
+/*信託保全用*/
+div.FxSerTru div.WordList{
+	border-bottom: 2px solid #aaa;
+	margin: 0 10px;
+}
+div.FxSerTru div.WordList h3{
+	background: url(/_img/fx/service/trust/icon_q.png) no-repeat 0 12px;
+	font-size: 130%;
+	font-weight: bold;
+	margin: 0;
+	padding: 15px 0 15px 40px;
+}
+div.FxSerTru div.WordList h3 span{
+	color:#000;
+}
+div.FxSerTru div.WordList p{
+	background: url(/_img/fx/service/trust/icon_a.png) no-repeat;
+	color: #000;
+	margin: 16px 0px;
+	padding: 3px 0 15px 40px;
+}
+/*信託保全用*/
+/*トップ最上部バナー(header.tpl)*/
+.PageHdBnr{
+	display: block;/*初期状態で非表示*/
+	background-color: #000;
+	margin: 0 auto;
+	overflow: hidden;
+	width: 100%;"
+}
+.PageHdBnr a{
+	display: block;
+	margin: 10px auto;width: 940px;
+}
+.PageHdBnr a img{
+	display: block;
+	width: 940px;
+}
+/*Bnr注釈（共通）*/
+.BnrNotice{
+	font-size: 10px;
+	margin: 12px auto;
+	width: 755px;
+}
+
+/* header黒帯naviList部 */
+.dmmNavi {
+	background-color: #242424;
+	height: 30px;
+	margin: 0 -12px;
+	padding: 3px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.dmmNavi__list {
+	margin: 0;
+	display: inline-block;
+}
+.dmmNavi__item {
+	list-style: none;
+	margin: 0;
+	float: left;
+}
+.dmmNavi__item + .dmmNavi__item {
+	margin-left: 1px;
+}
+.dmmNavi__item.active {
+	background-color: #c10000;
+}
+.dmmNavi__item:hover {
+	background-color: #c10000;
+}
+.dmmNavi__item > a {
+	padding: 6px 12px;
+	color: #f4f4f4 !important;
+	font-weight: bold;
+	text-decoration: none;
+	word-break: keep-all;
+	line-height: 24px;
+}
+.dmmNavi__item > a {
+	text-decoration: none !important;
+}
+.dmmNavi__otherLink {
+	float: right;
+}
+.dmmNavi__otherLink > a {
+	position: relative;
+	padding-left: 15px;
+	padding-right: 6px;
+	color: #eee !important;
+	font-size: 10px;
+	line-height: 24px;
+	font-weight: bold;
+}
+.dmmNavi__otherLink > a:before {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	content: "";
+	background-image: url(/_img/ico_beginner.gif);
+	background-size: 11px 11px;
+	height: 11px;
+	width: 11px;
+	margin: auto;
+}

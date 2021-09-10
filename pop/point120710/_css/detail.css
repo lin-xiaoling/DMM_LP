@@ -1,0 +1,190 @@
+@charset "UTF-8";
+/*///////////////////////////////////////emc////////////////////////////////////////////
+       Site Name  :  DMM FX
+       File Name  :  detail.css
+       Created     :  2011.09.01
+       Up Date     :  2010.09.01
+       Copyright (C) DMM FX All Rights Reserved.
+//////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/* ポップアップページ > 共通
+-------------------------------------------------------------*/
+div#LpPop { }
+
+.red { color: #FF0000; }
+.blue { color: #0077CC; }
+.TxtB {
+	font-weight: bold;
+	font-size:15px;
+}
+
+div#LpPop p.ImgBox{
+	display:block;
+	margin:0 auto 10px;
+}
+
+/* ポップアップページ >口座開設キャンペーン
+-------------------------------------------------------------*/
+div.PopOpen {
+	text-align: center;
+}
+div.PopOpen div#ContentWrapp {
+	width: 520px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* DMM Header */
+div#LpDmmHeader {
+	position: relative;
+	margin: 0 auto;
+	width: 520px;
+	height: 56px;
+	border-top: 6px solid #006933;
+}
+div#LpDmmHeader h1 {
+	position: absolute;
+	overflow: hidden;
+	top: 14px;
+	left: 19px;
+	width: 309px;
+	height: 31px;
+	margin: 0;
+	padding: 0px;
+	text-indent: -9999px;
+	background: url(/lp/lp0907open/_img/basic_img/logo2.gif) 0 0 no-repeat;
+}
+/* Content */
+
+div.PopOpen div#Content {
+	width: 520px;
+	margin: 25px auto 0;
+	padding: 0;
+	text-align: left;
+}
+div.PopOpen div#Content h2.HeadBg {
+    color: #005e15;
+    font-size: 16px;
+    margin: 16px 0;
+    padding: 6px 16px;
+    background: url(/lp/pop/_img/bg_h2.png) repeat-x scroll left top transparent;
+}
+
+div.PopOpen div#Content div.TableBox{
+    margin: 20px auto;
+    width: 520px;
+}
+div.PopOpen div#Content div.TableBox p.SpecNotes{
+    margin-bottom: 0;
+}
+div.PopOpen div#Content table.CpInfoTable {
+	margin:0 auto;
+    width: 520px;
+}
+div.PopOpen div#Content table.CpInfoTable th {
+	font-weight: bold;
+	font-size:15px;
+    white-space: nowrap;
+    background-color: #f1f9e9;
+}
+div.PopOpen div#Content table.CpInfoTable td dl{
+	margin: 0;
+}
+div.PopOpen div#Content table.CpInfoTable td dl dt{
+	margin-left: 0;
+	font-weight: bold;
+	font-size:15px;
+}
+div.PopOpen div#Content table.CpInfoTable td dl dd{
+	margin: 2px 0  5px 10px;
+}
+div.PopOpen div#Content table.CpInfoTable td  ul{
+	margin: 0 10px;
+}
+div.PopOpen div#Content table.CpInfoTable td.SpreadImg{
+	text-align: center;
+}
+div.PopOpen div#Content table.Default th {
+    background-color: #f1f9e9;
+    border: 1px solid #BBBBBB;
+    padding: 0.5em 1em;
+    white-space: nowrap;
+}
+
+div.PopOpen div#Content p.OutTxt{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/*閉じるボタン*/
+div#Content div.popClose {
+	float: right;
+	width:56px;
+	height:20px;
+	margin-bottom: 10px;
+}
+
+/* Content Footer */
+div#Content div#ContentFooter {
+	width: 100%;
+	margin: 1em 0 0 0;
+	padding: 14px 0 0;
+	text-align: center;
+	border-top:1px solid #BBBBBB;
+}
+ddiv#Content div#ContentFooter address {
+	font-size: 10px;
+}
+
+/* ポップアップページ >ポイントランク
+-------------------------------------------------------------*/
+div.PopPoint {
+}
+div.PopPoint div#ContentWrapp {
+	width: 520px;
+	margin: 0 auto;
+	padding: 0;
+}
+div.PopPoint div#Content h2.HeadBg {
+	background: url(../_img/title_fxpoint.png) no-repeat scroll 0 0 transparent;
+	width:309px;
+	height:30px;
+    margin: 16px 0;
+	text-indent:100%;
+	overflow:hidden;
+	white-space:nowrap;
+}
+div.PopPoint div#Content h3{
+	text-indent:100%;
+	overflow:hidden;
+	white-space:nowrap;
+    margin: 20px 0 10px;
+	height:30px;
+}
+div.PopPoint div#Content h3.TtlPair {background: url("../_img/ttl_20pair.png") no-repeat scroll 0 0 transparent; width:309px;}
+div.PopPoint div#Content h3.TtlRanK {background: url("../_img/ttl_pointrank.png") no-repeat scroll 0 0 transparent; width:309px;}
+
+
+div.PopPoint div#Content p{
+	font-size:14px;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+div.PopPoint div#Content p.Image{
+	display:block;
+	margin:0 auto;
+}
+div.PopPoint div#Content p.Image img{
+	display:block;
+}
+
+div.PopPoint div#Content div.Note {
+    background: none repeat scroll 0 0 #EEEEEE;
+    margin: 50px 0;
+    padding: 10px 0;
+	-moz-border-radius: 10px;/*for Firefox*/
+	-webkit-border-radius: 10px;/*for Safari and chrome*/
+	border-radius: 10px;
+	behavior: url(/htc/border-radius.htc);/*for IE*/
+
+}

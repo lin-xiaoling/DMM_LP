@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+#tieup {
+	margin: 0 auto;
+	text-align: center;
+}
+#g-point_renewal_head {
+	background: url(../img/g-point_ttl_bg.jpg) no-repeat top -25px center #fff;
+	background-size: cover;
+    height: 400px;
+	border-top:solid 10px #f48928;
+	text-align:center;
+}
+#g-point_renewal_head h1 {
+	width:1000px;
+	margin:32px auto 0 auto;
+	text-align:left;
+	padding-top: 20px;
+}
+#g-point_renewal_entry_bg {
+	background-color:#EEEEEE;
+	border-top:solid 1px #BBBBBB;
+	border-bottom:solid 1px #BBBBBB;
+	padding:36px 0;
+	text-align: center;
+}
+#g-point_renewal_flow_ttl {
+	margin-top:-67px;
+}
+
+.entry_btn,.anchor_link {
+	padding: 0px;
+	text-align: center;	
+}
+.entry_btn {
+	margin-top: 30px;
+}
+.anchor_link {
+	margin-bottom: 60px;
+}

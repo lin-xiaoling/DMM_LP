@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+#kazukakaricho_sp .remodal h2 {
+	white-space: inherit;
+}
+#kazukakaricho_sp p.tieup_btn_first {
+	    padding: 0;
+    line-height: normal;
+	margin: 1.3em auto 2em;
+}
+#tieup {background: #ffffff; margin-top: 0; padding-bottom: 0px}
+#tieup_ttl {padding:0; margin-bottom:10px; text-align:center;}
+#tieup_ttl h1,#tieup_ttl h2,#tieup_ttl #arrow,#tieup_ttl #main,#tieup_ttl h3,#tieup_head p {
+	padding:0;
+	margin:0;
+	line-height:0;
+}
+#tieup img {
+	width: 100%;	
+}
+#tieup_btn_first_title {
+	width: 69%;
+	margin: 16px auto 0px;
+	text-align: center;	
+}
+.tieup_btn_first {
+	width: 90%;
+	display: block;	
+	margin: 1.3em auto 0;
+}
+.tieup_btn_middle {
+	width: 90%;
+	display: block;	
+	margin: 1.3em auto 0;
+}
+.tieup_btn img {
+	width: 96%;
+	margin: 0 auto;
+	text-align: center;	
+}
+#camp_flow {
+	width: 85%;
+	margin: 30px auto 15px;
+	text-align: center;	
+}
+.step1,.step2,.step3 {
+	width:96%;
+	margin:0 auto;
+	text-align:center;	
+}
+#step2 {
+	width: 96%;
+	margin: 0px auto 20px;
+	text-align: center;	
+}
+#tieup_address {
+	padding:0 !important;
+	margin:0 auto 2em !important;
+}
+.head_tieup {
+	margin: 1.8em auto 4em !important;	
+}
+#step2_auwallet {
+	width: 96%;
+	margin: 0 auto 20px;
+	text-align: center;	
+}
+#camp_flow_tsite {
+	width: 62%;
+	margin: 40px auto 15px;
+	text-align: center;	
+}
+.contents_box {
+    width: 94%;
+    margin: 0 auto;
+}
+
+#tieup #camp_flow_general {
+    margin: 0px auto 15px;
+}
+
+#tieup #general_reason p {
+    width: 90%;
+    margin: 0.9em auto 0;
+	text-align: justify;
+}
+#tieup #general_reason h3 {
+    margin-top: 0.5em;
+    margin-bottom: 1.7em;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tieup #general_reason,#tieup #step {
+    background: #F2F2F2;
+    padding: 2em 0 2.5em;
+    margin: 2.5em auto 0em;
+}
+
+#tieup #general_reason ul li {
+	float: left;
+	width: 48.3%;
+	padding-bottom: 3.2%;
+	margin: 0;
+}
+#tieup #general_reason ul li.flt_r {
+	float: right;
+}
+
+
+#tieup #general_reason, #tieup #step {
+    background: #eeeeee;
+}
+#tieup #general_reason ul li {
+    float: none;
+    width: 91%;
+    padding-bottom: 1em;
+    margin: 0 auto;
+}
